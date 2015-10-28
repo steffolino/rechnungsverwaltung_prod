@@ -1,0 +1,1484 @@
+2015/09/18 16:15:24 [error] [php] Undefined variable: jvaAddFormModel (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\jva\jvaList.php:46)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): JvaController->renderFile()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(782): JvaController->renderPartial()
+#2 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php(49): JvaController->render()
+#3 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): JvaController->actionListJVAs()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): JvaController->runAction()
+#6 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): JvaController->runActionWithFilters()
+#7 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): JvaController->run()
+#8 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/listJVAs
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\jva\jvaList.php (46)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php (49)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/09/18 16:16:01 [error] [php] Undefined variable: jvaAddFormModel (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\jva\jvaList.php:46)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): JvaController->renderFile()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(782): JvaController->renderPartial()
+#2 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php(49): JvaController->render()
+#3 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): JvaController->actionListJVAs()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): JvaController->runAction()
+#6 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): JvaController->runActionWithFilters()
+#7 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): JvaController->run()
+#8 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/listJVAs
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\jva\jvaList.php (46)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php (49)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/09/18 16:16:24 [error] [php] Undefined variable: jvaAddFormModel (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\jva\jvaList.php:46)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): JvaController->renderFile()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(782): JvaController->renderPartial()
+#2 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php(49): JvaController->render()
+#3 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): JvaController->actionListJVAs()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): JvaController->runAction()
+#6 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): JvaController->runActionWithFilters()
+#7 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): JvaController->run()
+#8 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/listJVAs
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\jva\jvaList.php (46)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php (49)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/09/18 16:17:59 [error] [php] Undefined variable: jvaAddFormModel (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\jva\jvaList.php:46)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): JvaController->renderFile()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(782): JvaController->renderPartial()
+#2 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php(49): JvaController->render()
+#3 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): JvaController->actionListJVAs()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): JvaController->runAction()
+#6 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): JvaController->runActionWithFilters()
+#7 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): JvaController->run()
+#8 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/listJVAs
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\jva\jvaList.php (46)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php (49)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/09/18 16:18:20 [error] [php] Undefined variable: jvaAddFormModel (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\jva\jvaList.php:46)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): JvaController->renderFile()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(782): JvaController->renderPartial()
+#2 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php(49): JvaController->render()
+#3 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): JvaController->actionListJVAs()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): JvaController->runAction()
+#6 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): JvaController->runActionWithFilters()
+#7 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): JvaController->run()
+#8 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/listJVAs
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\jva\jvaList.php (46)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php (49)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/09/18 16:30:20 [error] [exception.CException] exception 'CException' with message 'Property "Booster.coreCss" is not defined.' in C:\inetpub\wwwroot\massaki\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\yiibooster\components\Booster.php(286): CComponent->__get('coreCss')
+#1 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\yiibooster\components\Booster.php(250): Booster->registerCssPackagesIfEnabled()
+#2 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\yiibooster\components\Booster.php(214): Booster->includeAssets()
+#3 C:\inetpub\wwwroot\massaki\framework\base\CModule.php(394): Booster->init()
+#4 C:\inetpub\wwwroot\massaki\framework\base\CModule.php(530): CModule->getComponent('booster')
+#5 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(167): CModule->preloadComponents()
+#6 C:\inetpub\wwwroot\massaki\framework\YiiBase.php(125): CApplication->__construct('C:\\inetpub\\wwwr...')
+#7 C:\inetpub\wwwroot\massaki\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\inetpub\\wwwr...')
+#8 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): YiiBase::createWebApplication('C:\\inetpub\\wwwr...')
+#9 {main}
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/listJVAs
+HTTP_REFERER=http://localhost:8888/massaki/rechnungstool/index.php
+---
+2015/09/18 16:34:48 [error] [php] Undefined variable: jvaEditFormModel (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\jva\_jvaAddForm.php:19)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): JvaController->renderFile()
+#1 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\jva\jvaList.php(46): JvaController->renderPartial()
+#2 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(126): require()
+#3 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(95): JvaController->renderInternal()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): JvaController->renderFile()
+#5 C:\inetpub\wwwroot\massaki\framework\web\CController.php(782): JvaController->renderPartial()
+#6 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php(49): JvaController->render()
+#7 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): JvaController->actionListJVAs()
+#8 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): JvaController->runAction()
+#10 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): JvaController->runActionWithFilters()
+#11 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): JvaController->run()
+#12 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/listJVAs
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\jva\_jvaAddForm.php (19)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\jva\jvaList.php (46)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php (49)
+2015/09/18 16:34:57 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (C:\inetpub\wwwroot\massaki\framework\web\helpers\CHtml.php:108)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\helpers\CHtml.php(163): renderAttributes()
+#1 C:\inetpub\wwwroot\massaki\framework\web\helpers\CHtml.php(595): tag()
+#2 C:\inetpub\wwwroot\massaki\framework\web\helpers\CHtml.php(1492): label()
+#3 C:\inetpub\wwwroot\massaki\framework\web\helpers\CHtml.php(1514): activeLabel()
+#4 C:\inetpub\wwwroot\massaki\framework\web\widgets\CActiveForm.php(600): activeLabelEx()
+#5 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\jva\_jvaAddForm.php(28): TbActiveForm->labelEx()
+#6 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(126): require()
+#7 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(95): JvaController->renderInternal()
+#8 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): JvaController->renderFile()
+#9 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\jva\jvaList.php(46): JvaController->renderPartial()
+#10 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(126): require()
+#11 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(95): JvaController->renderInternal()
+#12 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): JvaController->renderFile()
+#13 C:\inetpub\wwwroot\massaki\framework\web\CController.php(782): JvaController->renderPartial()
+#14 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php(49): JvaController->render()
+#15 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): JvaController->actionListJVAs()
+#16 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#17 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): JvaController->runAction()
+#18 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): JvaController->runActionWithFilters()
+#19 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): JvaController->run()
+#20 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#21 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#22 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/listJVAs
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\jva\_jvaAddForm.php (28)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\jva\jvaList.php (46)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php (49)
+2015/09/18 17:06:29 [error] [exception.CException] exception 'CException' with message 'JvaController cannot find the requested view "index.php?r=jva/listJVAs".' in C:\inetpub\wwwroot\massaki\framework\web\CController.php:878
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(782): CController->renderPartial('index.php?r=jva...', NULL, true)
+#1 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php(126): CController->render('index.php?r=jva...')
+#2 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): JvaController->actionSaveJVAAddForm()
+#3 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): CController->run('saveJVAAddForm')
+#7 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController('jva/saveJVAAddF...')
+#8 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/saveJVAAddForm
+HTTP_REFERER=http://localhost:8888/massaki/rechnungstool/index.php?r=jva/listJVAs
+---
+2015/09/18 17:22:48 [error] [php] Undefined variable: jvaListModel (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php:50)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): JvaController->runAction()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): JvaController->runActionWithFilters()
+#2 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): JvaController->run()
+#3 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/listJVAs
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php (50)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/09/18 17:32:43 [error] [php] Undefined variable: jvaListMode (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php:127)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): JvaController->runAction()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): JvaController->runActionWithFilters()
+#2 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): JvaController->run()
+#3 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/saveJVAAddForm
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php (127)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/09/18 17:33:25 [error] [php] Undefined variable: jvaListMode (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php:127)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): JvaController->runAction()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): JvaController->runActionWithFilters()
+#2 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): JvaController->run()
+#3 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/saveJVAAddForm
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php (127)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/09/18 17:33:59 [error] [php] Invalid argument supplied for foreach() (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\jva\_jvaList.php:2)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): JvaController->renderFile()
+#1 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php(127): JvaController->renderPartial()
+#2 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): JvaController->actionSaveJVAAddForm()
+#3 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): JvaController->runAction()
+#5 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): JvaController->runActionWithFilters()
+#6 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): JvaController->run()
+#7 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/saveJVAAddForm
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\jva\_jvaList.php (2)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php (127)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/09/18 17:36:57 [error] [php] Undefined variable: jvaListModel (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php:128)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): JvaController->runAction()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): JvaController->runActionWithFilters()
+#2 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): JvaController->run()
+#3 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/saveJVAAddForm
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php (128)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/09/21 14:19:25 [error] [exception.CException] exception 'CException' with message 'JvaModel and its behaviors do not have a method or closure named "deactivateJvaById".' in C:\inetpub\wwwroot\massaki\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php(140): CComponent->__call('deactivateJvaBy...', Array)
+#1 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php(140): JvaModel->deactivateJvaById('10')
+#2 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): JvaController->actionDeactivateJVAById()
+#3 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): CController->run('deactivateJVABy...')
+#7 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController('jva/deactivateJ...')
+#8 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/deactivateJVAById
+HTTP_REFERER=http://localhost:8888/massaki/rechnungstool/index.php?r=jva/listJVAs
+---
+2015/09/21 14:21:51 [error] [exception.CException] exception 'CException' with message 'Property "JvaData.deactivated" is not defined.' in C:\inetpub\wwwroot\massaki\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\db\ar\CActiveRecord.php(161): CComponent->__set('deactivated', 'y')
+#1 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\models\JvaModel.php(125): CActiveRecord->__set('deactivated', 'y')
+#2 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php(140): JvaModel->deactivateJvaById('11')
+#3 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): JvaController->actionDeactivateJVAById()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): CController->run('deactivateJVABy...')
+#8 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController('jva/deactivateJ...')
+#9 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/deactivateJVAById
+HTTP_REFERER=http://localhost:8888/massaki/rechnungstool/index.php?r=jva/listJVAs
+---
+2015/09/21 14:24:22 [error] [php] Invalid argument supplied for foreach() (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\jva\_jvaList.php:2)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): JvaController->renderFile()
+#1 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php(145): JvaController->renderPartial()
+#2 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): JvaController->actionDeactivateJVAById()
+#3 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): JvaController->runAction()
+#5 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): JvaController->runActionWithFilters()
+#6 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): JvaController->run()
+#7 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/deactivateJVAById
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\jva\_jvaList.php (2)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php (145)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/09/21 14:29:40 [error] [php] Invalid argument supplied for foreach() (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\jva\_jvaList.php:2)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): JvaController->renderFile()
+#1 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php(145): JvaController->renderPartial()
+#2 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): JvaController->actionDeactivateJVAById()
+#3 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): JvaController->runAction()
+#5 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): JvaController->runActionWithFilters()
+#6 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): JvaController->run()
+#7 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/deactivateJVAById
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\jva\_jvaList.php (2)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php (145)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/09/21 14:30:09 [error] [php] Invalid argument supplied for foreach() (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\jva\_jvaList.php:2)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): JvaController->renderFile()
+#1 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php(145): JvaController->renderPartial()
+#2 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): JvaController->actionDeactivateJVAById()
+#3 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): JvaController->runAction()
+#5 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): JvaController->runActionWithFilters()
+#6 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): JvaController->run()
+#7 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/deactivateJVAById
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\jva\_jvaList.php (2)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php (145)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/09/21 14:30:25 [error] [php] Invalid argument supplied for foreach() (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\jva\_jvaList.php:2)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): JvaController->renderFile()
+#1 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php(145): JvaController->renderPartial()
+#2 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): JvaController->actionDeactivateJVAById()
+#3 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): JvaController->runAction()
+#5 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): JvaController->runActionWithFilters()
+#6 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): JvaController->run()
+#7 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/deactivateJVAById
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\jva\_jvaList.php (2)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php (145)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/09/21 16:07:06 [error] [php] Creating default object from empty value (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\models\JvaModel.php:221)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): JvaController->runAction()
+#2 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): JvaController->runActionWithFilters()
+#3 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): JvaController->run()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/saveJVAEditForm
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\models\JvaModel.php (221)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php (89)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/09/21 16:23:21 [error] [php] Creating default object from empty value (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\models\JvaModel.php:221)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): JvaController->runAction()
+#2 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): JvaController->runActionWithFilters()
+#3 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): JvaController->run()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/saveJVAEditForm
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\models\JvaModel.php (221)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php (89)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/09/21 16:39:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "invoice/invoicesth".' in C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController('invoice/invoice...')
+#1 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/massaki/rechnungstool/index.php?r=invoice/invoicesth
+HTTP_REFERER=http://localhost:8888/massaki/rechnungstool/index.php?r=jva/listJVAs
+---
+2015/10/01 12:53:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "invoice/invoicesth".' in C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController('invoice/invoice...')
+#1 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/massaki/rechnungstool/index.php?r=invoice/invoicesth
+HTTP_REFERER=http://localhost:8888/massaki/rechnungstool/index.php?r=jva/listJVAs
+---
+2015/10/01 12:53:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "search/search".' in C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController('search/search')
+#1 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/massaki/rechnungstool/index.php?r=search/search
+HTTP_REFERER=http://localhost:8888/massaki/rechnungstool/index.php?r=jva/listJVAs
+---
+2015/10/02 14:19:11 [error] [php] Creating default object from empty value (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\models\JvaModel.php:222)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): JvaController->runAction()
+#2 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): JvaController->runActionWithFilters()
+#3 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): JvaController->run()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/saveJVAEditForm
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\models\JvaModel.php (222)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php (89)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/10/02 14:23:03 [error] [php] Creating default object from empty value (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\models\JvaModel.php:222)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): JvaController->runAction()
+#2 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): JvaController->runActionWithFilters()
+#3 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): JvaController->run()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/saveJVAEditForm
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\models\JvaModel.php (222)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php (89)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/10/02 14:24:57 [error] [php] Creating default object from empty value (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\models\JvaModel.php:222)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): JvaController->runAction()
+#2 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): JvaController->runActionWithFilters()
+#3 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): JvaController->run()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/saveJVAEditForm
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\models\JvaModel.php (222)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php (89)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/10/02 14:28:45 [error] [php] Creating default object from empty value (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\models\JvaModel.php:222)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): JvaController->runAction()
+#2 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): JvaController->runActionWithFilters()
+#3 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): JvaController->run()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/saveJVAEditForm
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\models\JvaModel.php (222)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php (89)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/10/05 17:42:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pdf/createPDF".' in C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController('pdf/createPDF')
+#1 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/massaki/rechnungstool/index.php?r=pdf/createPDF
+HTTP_REFERER=http://localhost:8888/massaki/rechnungstool/index.php
+---
+2015/10/05 17:43:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pdf/createPDF".' in C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController('pdf/createPDF')
+#1 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/massaki/rechnungstool/index.php?r=pdf/createPDF
+HTTP_REFERER=http://localhost:8888/massaki/rechnungstool/index.php
+---
+2015/10/05 17:43:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pdf/createPDF".' in C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController('pdf/createPDF')
+#1 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/massaki/rechnungstool/index.php?r=pdf/createPDF
+HTTP_REFERER=http://localhost:8888/massaki/rechnungstool/index.php
+---
+2015/10/05 17:44:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pdf/createPDF".' in C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController('pdf/createPDF')
+#1 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/massaki/rechnungstool/index.php?r=pdf/createPDF
+HTTP_REFERER=http://localhost:8888/massaki/rechnungstool/index.php
+---
+2015/10/05 17:45:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pdf/createPDF".' in C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController('pdf/createPDF')
+#1 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/massaki/rechnungstool/index.php?r=pdf/createPDF
+HTTP_REFERER=http://localhost:8888/massaki/rechnungstool/index.php
+---
+2015/10/05 17:52:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pdf/createPDF".' in C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController('pdf/createPDF')
+#1 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/massaki/rechnungstool/index.php?r=pdf/createPDF
+HTTP_REFERER=http://localhost:8888/massaki/rechnungstool/index.php
+---
+2015/10/05 17:52:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "pdf/createPdf".' in C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController('pdf/createPdf')
+#1 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/massaki/rechnungstool/index.php?r=pdf/createPdf
+---
+2015/10/05 17:54:39 [error] [php] include(C:\inetpub\wwwroot\massaki\Rechnungstool\protected\vendors\html2pdf\html2pdf.class.php): failed to open stream: No such file or directory (C:\inetpub\wwwroot\massaki\framework\YiiBase.php:404)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\yii-pdf\EYiiPdf.php(82): ReflectionClass->__construct()
+#2 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\yii-pdf\EYiiPdf.php(115): EYiiPdf->initLibrary()
+#3 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\PdfController.php(27): EYiiPdf->HTML2PDF()
+#4 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): PdfController->actionCreatePdf()
+#5 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): PdfController->runAction()
+#7 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): PdfController->runActionWithFilters()
+#8 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): PdfController->run()
+#9 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=pdf/createPdf
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\yii-pdf\EYiiPdf.php (82)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\yii-pdf\EYiiPdf.php (115)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\PdfController.php (27)
+2015/10/05 17:55:16 [error] [php] include(C:\inetpub\wwwroot\massaki\Rechnungstool\protected\vendors\html2pdf\html2pdf.class.php): failed to open stream: No such file or directory (C:\inetpub\wwwroot\massaki\framework\YiiBase.php:404)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\yii-pdf\EYiiPdf.php(82): ReflectionClass->__construct()
+#2 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\yii-pdf\EYiiPdf.php(115): EYiiPdf->initLibrary()
+#3 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\PdfController.php(27): EYiiPdf->HTML2PDF()
+#4 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): PdfController->actionCreatePdf()
+#5 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): PdfController->runAction()
+#7 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): PdfController->runActionWithFilters()
+#8 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): PdfController->run()
+#9 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=pdf/createPdf
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\yii-pdf\EYiiPdf.php (82)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\yii-pdf\EYiiPdf.php (115)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\PdfController.php (27)
+2015/10/05 17:55:19 [error] [php] include(C:\inetpub\wwwroot\massaki\Rechnungstool\protected\vendors\html2pdf\html2pdf.class.php): failed to open stream: No such file or directory (C:\inetpub\wwwroot\massaki\framework\YiiBase.php:404)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\yii-pdf\EYiiPdf.php(82): ReflectionClass->__construct()
+#2 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\yii-pdf\EYiiPdf.php(115): EYiiPdf->initLibrary()
+#3 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\PdfController.php(27): EYiiPdf->HTML2PDF()
+#4 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): PdfController->actionCreatePdf()
+#5 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): PdfController->runAction()
+#7 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): PdfController->runActionWithFilters()
+#8 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): PdfController->run()
+#9 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=pdf/createPdf
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\yii-pdf\EYiiPdf.php (82)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\yii-pdf\EYiiPdf.php (115)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\PdfController.php (27)
+2015/10/05 17:56:25 [error] [exception.CException] exception 'CException' with message 'PdfController cannot find the requested view "site/index".' in C:\inetpub\wwwroot\massaki\framework\web\CController.php:878
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\PdfController.php(28): CController->renderPartial('site/index', Array, true)
+#1 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): PdfController->actionCreatePdf()
+#2 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): CController->run('createPdf')
+#6 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController('pdf/createPdf')
+#7 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#8 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/massaki/rechnungstool/index.php?r=pdf/createPdf
+---
+2015/10/05 17:57:45 [error] [exception.HTML2PDF_exception] <span style="color: #AA0000; font-weight: bold;">ERREUR n°1</span><br>Fichier : C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\vendors\html2pdf\html2pdf.class.php<br>Ligne : 1251<br><br>La balise <b>&lt;BUTTON&gt;</b> n'existe pas encore.<br><br>Si vous voulez la rajouter, vous devez créer les méthodes <b>o_BUTTON</b> (pour l'ouverture) et <b>c_BUTTON</b> (pour la fermeture) en suivant le modèle des balises existantes.<br><br>De plus, si vous créez ces méthodes, n'hésitez pas à en faire profiter tout le monde en m'écrivant sur webmaster@html2pdf.fr afin qu'elles se retrouvent dans la prochaine version d'HTML2PDF.
+REQUEST_URI=/massaki/rechnungstool/index.php?r=pdf/createPdf
+---
+2015/10/05 18:01:22 [error] [exception.HTML2PDF_exception] <span style="color: #AA0000; font-weight: bold;">ERROR n°1</span><br>File : C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\vendors\html2pdf\html2pdf.class.php<br>Line : 1251<br><br>The tag <b>&lt;BUTTON&gt;</b> does not yet exist.<br><br>If you want to add it, you must create the methods <b>o_BUTTON</b> (for opening) and <b>c_BUTTON</b> (for closure) by following the model of existing tags.<br><br>If you create these methods, do not hesitate to send me an email to webmaster@html2pdf.fr to included them in the next version of HTML2PDF.
+REQUEST_URI=/massaki/rechnungstool/index.php?r=pdf/createPdf
+---
+2015/10/05 18:04:58 [error] [php] include(mpdf.php): failed to open stream: No such file or directory (C:\inetpub\wwwroot\massaki\framework\YiiBase.php:432)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\yii-pdf\EYiiPdf.php(82): ReflectionClass->__construct()
+#2 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\yii-pdf\EYiiPdf.php(105): EYiiPdf->initLibrary()
+#3 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\PdfController.php(26): EYiiPdf->mpdf()
+#4 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): PdfController->actionCreatePdf()
+#5 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): PdfController->runAction()
+#7 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): PdfController->runActionWithFilters()
+#8 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): PdfController->run()
+#9 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=pdf/createPdf
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\yii-pdf\EYiiPdf.php (82)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\yii-pdf\EYiiPdf.php (105)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\PdfController.php (26)
+2015/10/05 18:33:16 [error] [exception.CException] exception 'CException' with message 'PdfController cannot find the requested view "jva/jvaList".' in C:\inetpub\wwwroot\massaki\framework\web\CController.php:878
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(782): CController->renderPartial('jva/jvaList', Array, true)
+#1 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\PdfController.php(30): CController->render('jva/jvaList', Array, true)
+#2 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): PdfController->actionCreatePdf()
+#3 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): CController->run('createPDF')
+#7 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController('pdf/createPDF')
+#8 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/massaki/rechnungstool/index.php?r=pdf/createPDF
+HTTP_REFERER=http://localhost:8888/massaki/rechnungstool/index.php
+---
+2015/10/05 18:33:51 [error] [exception.CException] exception 'CException' with message 'PdfController cannot find the requested view "_jvaList".' in C:\inetpub\wwwroot\massaki\framework\web\CController.php:878
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\jva\jvaList.php(46): CController->renderPartial('_jvaList', Array)
+#1 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(126): require('C:\\inetpub\\wwwr...')
+#2 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\inetpub\\wwwr...', Array, true)
+#3 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): CBaseController->renderFile('C:\\inetpub\\wwwr...', Array, true)
+#4 C:\inetpub\wwwroot\massaki\framework\web\CController.php(782): CController->renderPartial('//jva/jvaList', Array, true)
+#5 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\PdfController.php(30): CController->render('//jva/jvaList', Array, true)
+#6 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): PdfController->actionCreatePdf()
+#7 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): CController->run('createPDF')
+#11 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController('pdf/createPDF')
+#12 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/massaki/rechnungstool/index.php?r=pdf/createPDF
+HTTP_REFERER=http://localhost:8888/massaki/rechnungstool/index.php
+---
+2015/10/05 18:34:17 [error] [php] Invalid argument supplied for foreach() (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\jva\_jvaList.php:2)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): PdfController->renderFile()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(782): PdfController->renderPartial()
+#2 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\PdfController.php(30): PdfController->render()
+#3 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): PdfController->actionCreatePdf()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): PdfController->runAction()
+#6 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): PdfController->runActionWithFilters()
+#7 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): PdfController->run()
+#8 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=pdf/createPDF
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\jva\_jvaList.php (2)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\PdfController.php (30)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/10/05 18:54:30 [error] [exception.CException] exception 'CException' with message 'PdfController cannot find the requested view "/testIndex".' in C:\inetpub\wwwroot\massaki\framework\web\CController.php:878
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(782): CController->renderPartial('/testIndex', Array, true)
+#1 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\PdfController.php(35): CController->render('/testIndex', Array, true)
+#2 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): PdfController->actionCreatePdf()
+#3 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): CController->run('createPDF')
+#7 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController('pdf/createPDF')
+#8 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/massaki/rechnungstool/index.php?r=pdf/createPDF
+---
+2015/10/05 19:15:47 [error] [php] file_get_contents(C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\bootstrap\css/print.css): failed to open stream: No such file or directory (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\PdfController.php:32)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): PdfController->runAction()
+#2 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): PdfController->runActionWithFilters()
+#3 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): PdfController->run()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=pdf/createPDF
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\PdfController.php (32)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/10/05 19:15:57 [error] [php] file_get_contents(C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\bootstrap\css/bootstrap.css): failed to open stream: No such file or directory (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\PdfController.php:32)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): PdfController->runAction()
+#2 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): PdfController->runActionWithFilters()
+#3 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): PdfController->run()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=pdf/createPDF
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\PdfController.php (32)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/10/05 19:16:04 [error] [php] file_get_contents(C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\bootstrap\css\bootstrap.css): failed to open stream: No such file or directory (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\PdfController.php:32)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): PdfController->runAction()
+#2 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): PdfController->runActionWithFilters()
+#3 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): PdfController->run()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=pdf/createPDF
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\PdfController.php (32)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/10/05 19:16:16 [error] [php] file_get_contents(C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\bootstrap\css\bootstrap.css): failed to open stream: No such file or directory (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\PdfController.php:32)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): PdfController->runAction()
+#2 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): PdfController->runActionWithFilters()
+#3 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): PdfController->run()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=pdf/createPDF
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\PdfController.php (32)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/10/19 13:12:07 [error] [php] Undefined variable: result (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\document\enterNewDoc.php:42)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): DocumentController->renderFile()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(782): DocumentController->renderPartial()
+#2 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\DocumentController.php(14): DocumentController->render()
+#3 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): DocumentController->actionEnterNewDoc()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): DocumentController->runAction()
+#6 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): DocumentController->runActionWithFilters()
+#7 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): DocumentController->run()
+#8 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=document/enterNewDoc
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\document\enterNewDoc.php (42)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\DocumentController.php (14)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/10/19 13:12:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "search/search".' in C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController('search/search')
+#1 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/massaki/rechnungstool/index.php?r=search/search
+HTTP_REFERER=http://localhost:8888/massaki/rechnungstool/index.php?r=document/enterNewDoc
+---
+2015/10/19 13:12:13 [error] [php] Undefined variable: result (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\document\enterNewDoc.php:42)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): DocumentController->renderFile()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(782): DocumentController->renderPartial()
+#2 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\DocumentController.php(14): DocumentController->render()
+#3 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): DocumentController->actionEnterNewDoc()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): DocumentController->runAction()
+#6 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): DocumentController->runActionWithFilters()
+#7 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): DocumentController->run()
+#8 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=document/enterNewDoc
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\document\enterNewDoc.php (42)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\DocumentController.php (14)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/10/19 13:12:28 [error] [php] Undefined variable: result (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\document\enterNewDoc.php:42)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): DocumentController->renderFile()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(782): DocumentController->renderPartial()
+#2 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\DocumentController.php(14): DocumentController->render()
+#3 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): DocumentController->actionEnterNewDoc()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): DocumentController->runAction()
+#6 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): DocumentController->runActionWithFilters()
+#7 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): DocumentController->run()
+#8 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=document/enterNewDoc
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\document\enterNewDoc.php (42)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\DocumentController.php (14)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/10/19 13:12:30 [error] [php] Undefined variable: result (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\document\enterNewDoc.php:42)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): DocumentController->renderFile()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(782): DocumentController->renderPartial()
+#2 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\DocumentController.php(14): DocumentController->render()
+#3 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): DocumentController->actionEnterNewDoc()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): DocumentController->runAction()
+#6 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): DocumentController->runActionWithFilters()
+#7 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): DocumentController->run()
+#8 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=document/enterNewDoc
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\document\enterNewDoc.php (42)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\DocumentController.php (14)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/10/19 13:21:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte.
+' in C:\inetpub\wwwroot\massaki\framework\db\CDbConnection.php:399
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 C:\inetpub\wwwroot\massaki\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 C:\inetpub\wwwroot\massaki\framework\base\CModule.php(394): CDbConnection->init()
+#3 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(458): CModule->getComponent('db')
+#4 C:\inetpub\wwwroot\massaki\framework\db\ar\CActiveRecord.php(637): CApplication->getDb()
+#5 C:\inetpub\wwwroot\massaki\framework\db\ar\CActiveRecord.php(670): CActiveRecord->getDbConnection()
+#6 C:\inetpub\wwwroot\massaki\framework\db\ar\CActiveRecord.php(1474): CActiveRecord->getCommandBuilder()
+#7 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\models\JvaModel.php(38): CActiveRecord->findAll(Object(CDbCriteria))
+#8 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php(42): JvaModel->getAllJvas()
+#9 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): JvaController->actionListJVAs()
+#10 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): CController->run('listJVAs')
+#14 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController('jva/listJVAs')
+#15 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/listJVAs
+---
+2015/10/19 13:21:41 [error] [php] Undefined variable: result (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\document\enterNewDoc.php:42)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): DocumentController->renderFile()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(782): DocumentController->renderPartial()
+#2 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\DocumentController.php(14): DocumentController->render()
+#3 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): DocumentController->actionEnterNewDoc()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): DocumentController->runAction()
+#6 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): DocumentController->runActionWithFilters()
+#7 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): DocumentController->run()
+#8 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=document/enterNewDoc
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\document\enterNewDoc.php (42)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\DocumentController.php (14)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/10/19 13:22:43 [error] [php] Undefined variable: result (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\document\enterNewDoc.php:42)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): DocumentController->renderFile()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(782): DocumentController->renderPartial()
+#2 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\DocumentController.php(14): DocumentController->render()
+#3 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): DocumentController->actionEnterNewDoc()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): DocumentController->runAction()
+#6 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): DocumentController->runActionWithFilters()
+#7 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): DocumentController->run()
+#8 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=document/enterNewDoc
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\document\enterNewDoc.php (42)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\DocumentController.php (14)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/10/19 16:37:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "jvaList".' in C:\inetpub\wwwroot\massaki\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(270): CController->missingAction('jvaList')
+#1 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): CController->run('jvaList')
+#2 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController('jva/jvaList')
+#3 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/jvaList&q=ebin&_=1445261839347
+HTTP_REFERER=http://localhost:8888/massaki/rechnungstool/index.php?r=document/enterNewDoc
+---
+2015/10/19 16:45:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getJvaAsJson".' in C:\inetpub\wwwroot\massaki\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(270): CController->missingAction('getJvaAsJson')
+#1 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): CController->run('getJvaAsJson')
+#2 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController('jva/getJvaAsJso...')
+#3 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/getJvaAsJson&q=ebin&_=1445262324575
+HTTP_REFERER=http://localhost:8888/massaki/rechnungstool/index.php?r=document/enterNewDoc
+---
+2015/10/19 16:46:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getJvaAsJson".' in C:\inetpub\wwwroot\massaki\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(270): CController->missingAction('getJvaAsJson')
+#1 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): CController->run('getJvaAsJson')
+#2 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController('jva/getJvaAsJso...')
+#3 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/getJvaAsJson&jvaSearchTerm=ebin&_=1445262377468
+HTTP_REFERER=http://localhost:8888/massaki/rechnungstool/index.php?r=document/enterNewDoc
+---
+2015/10/19 16:46:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "getJvaAsJson".' in C:\inetpub\wwwroot\massaki\framework\web\CController.php:483
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(270): CController->missingAction('getJvaAsJson')
+#1 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): CController->run('getJvaAsJson')
+#2 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController('jva/getJvaAsJso...')
+#3 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/getJvaAsJson&jvaSearchTerm=ebin&_=1445262413128
+HTTP_REFERER=http://localhost:8888/massaki/rechnungstool/index.php?r=document/enterNewDoc
+---
+2015/10/19 17:04:03 [error] [php] Invalid argument supplied for foreach() (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\models\JvaModel.php:105)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): JvaController->runAction()
+#2 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): JvaController->runActionWithFilters()
+#3 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): JvaController->run()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/getJvaAsJson&jvaSearchTerm=ebin&_=1445263441374
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\models\JvaModel.php (105)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php (155)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/10/19 17:05:18 [error] [php] Invalid argument supplied for foreach() (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\models\JvaModel.php:105)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): JvaController->runAction()
+#2 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): JvaController->runActionWithFilters()
+#3 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): JvaController->run()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/getJvaAsJson&jvaSearchTerm=ebin&_=1445263515761
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\models\JvaModel.php (105)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php (155)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/10/19 17:05:18 [error] [php] Invalid argument supplied for foreach() (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\models\JvaModel.php:105)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): JvaController->runAction()
+#2 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): JvaController->runActionWithFilters()
+#3 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): JvaController->run()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/getJvaAsJson&jvaSearchTerm=ebing&_=1445263515762
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\models\JvaModel.php (105)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php (155)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/10/19 17:05:53 [error] [php] Undefined variable: jvaNameArray (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\models\JvaModel.php:111)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): JvaController->runAction()
+#2 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): JvaController->runActionWithFilters()
+#3 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): JvaController->run()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/getJvaAsJson&jvaSearchTerm=ebin&_=1445263550592
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\models\JvaModel.php (111)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php (155)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/10/19 17:11:07 [error] [php] Array to string conversion (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php:156)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): JvaController->runAction()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): JvaController->runActionWithFilters()
+#2 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): JvaController->run()
+#3 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/getJvaAsJson&jvaSearchTerm=ebin&_=1445263864143
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php (156)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/10/19 17:11:46 [error] [php] Array to string conversion (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php:156)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): JvaController->runAction()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): JvaController->runActionWithFilters()
+#2 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): JvaController->run()
+#3 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/getJvaAsJson&jvaSearchTerm=ebin&_=1445263903752
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php (156)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/10/19 17:12:11 [error] [php] Array to string conversion (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php:156)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): JvaController->runAction()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): JvaController->runActionWithFilters()
+#2 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): JvaController->run()
+#3 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/getJvaAsJson&jvaSearchTerm=ebin&_=1445263928127
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php (156)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/10/19 17:12:11 [error] [php] Array to string conversion (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php:156)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): JvaController->runAction()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): JvaController->runActionWithFilters()
+#2 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): JvaController->run()
+#3 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/getJvaAsJson&jvaSearchTerm=ebing&_=1445263928128
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php (156)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/10/19 17:31:14 [error] [php] Undefined variable: jvaNamesArray (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php:163)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): JvaController->runAction()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): JvaController->runActionWithFilters()
+#2 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): JvaController->run()
+#3 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/getJvaAsJson&jvaSearchTerm=ebin&_=1445265071369
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php (163)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/10/19 17:39:13 [error] [php] Missing argument 1 for JvaModel::getAllJvaNames(), called in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php on line 155 and defined (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\models\JvaModel.php:102)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): JvaController->runAction()
+#2 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): JvaController->runActionWithFilters()
+#3 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): JvaController->run()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/getJvaAsJson&jvaSearchTerm=ebin&_=1445265549295
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\models\JvaModel.php (102)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php (155)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/10/19 17:46:28 [error] [php] Array to string conversion (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php:157)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): JvaController->runAction()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): JvaController->runActionWithFilters()
+#2 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): JvaController->run()
+#3 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=jva/getJvaAsJson&jvaSearchTerm=ebin&_=1445265985278
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\JvaController.php (157)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/10/19 19:51:36 [error] [exception.CException] exception 'CException' with message 'Property "TbSelect2.width" is not defined.' in C:\inetpub\wwwroot\massaki\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CWidgetFactory.php(161): CComponent->__set('width', '100%')
+#1 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(DocumentController), 'booster.widgets...', Array)
+#2 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(180): CBaseController->createWidget('booster.widgets...', Array)
+#3 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\document\enterNewDoc.php(45): CBaseController->widget('booster.widgets...', Array)
+#4 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(126): require('C:\\inetpub\\wwwr...')
+#5 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\inetpub\\wwwr...', NULL, true)
+#6 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): CBaseController->renderFile('C:\\inetpub\\wwwr...', NULL, true)
+#7 C:\inetpub\wwwroot\massaki\framework\web\CController.php(782): CController->renderPartial('enterNewDoc', NULL, true)
+#8 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\DocumentController.php(14): CController->render('enterNewDoc')
+#9 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): DocumentController->actionEnterNewDoc()
+#10 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): CController->run('enterNewDoc')
+#14 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController('document/enterN...')
+#15 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/massaki/rechnungstool/index.php?r=document/enterNewDoc
+---
+2015/10/26 14:19:07 [error] [php] include(COM.php): failed to open stream: No such file or directory (C:\inetpub\wwwroot\massaki\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\document\enterNewDoc.php(8): spl_autoload_call()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(126): require()
+#2 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(95): DocumentController->renderInternal()
+#3 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): DocumentController->renderFile()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CController.php(782): DocumentController->renderPartial()
+#5 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\DocumentController.php(14): DocumentController->render()
+#6 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): DocumentController->actionEnterNewDoc()
+#7 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): DocumentController->runAction()
+#9 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): DocumentController->runActionWithFilters()
+#10 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): DocumentController->run()
+#11 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=document/enterNewDoc
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\document\enterNewDoc.php (8)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\DocumentController.php (14)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/10/26 14:21:18 [error] [php] include(COM.php): failed to open stream: No such file or directory (C:\inetpub\wwwroot\massaki\framework\YiiBase.php:432)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\document\enterNewDoc.php(8): spl_autoload_call()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(126): require()
+#2 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(95): DocumentController->renderInternal()
+#3 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): DocumentController->renderFile()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CController.php(782): DocumentController->renderPartial()
+#5 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\DocumentController.php(14): DocumentController->render()
+#6 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): DocumentController->actionEnterNewDoc()
+#7 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): DocumentController->runAction()
+#9 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): DocumentController->runActionWithFilters()
+#10 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): DocumentController->run()
+#11 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=document/enterNewDoc
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\document\enterNewDoc.php (8)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\DocumentController.php (14)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/10/26 14:28:59 [error] [exception.com_exception] exception 'com_exception' with message 'Failed to create COM object `WinNT://Domain': Der Arbeitsstationsdienst wurde nicht gestartet.
+' in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\document\enterNewDoc.php:9
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\document\enterNewDoc.php(9): com->com('WinNT://Domain')
+#1 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(126): require('C:\\inetpub\\wwwr...')
+#2 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\inetpub\\wwwr...', NULL, true)
+#3 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): CBaseController->renderFile('C:\\inetpub\\wwwr...', NULL, true)
+#4 C:\inetpub\wwwroot\massaki\framework\web\CController.php(782): CController->renderPartial('enterNewDoc', NULL, true)
+#5 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\DocumentController.php(14): CController->render('enterNewDoc')
+#6 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): DocumentController->actionEnterNewDoc()
+#7 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): CController->run('enterNewDoc')
+#11 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController('document/enterN...')
+#12 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/massaki/rechnungstool/index.php?r=document/enterNewDoc
+HTTP_REFERER=http://localhost:8888/massaki/rechnungstool/index.php
+---
+2015/10/26 14:32:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "search/search".' in C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController('search/search')
+#1 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/massaki/rechnungstool/index.php?r=search/search
+HTTP_REFERER=http://localhost:8888/massaki/rechnungstool/index.php
+---
+2015/10/26 14:41:02 [error] [exception.CException] exception 'CException' with message 'SearchController cannot find the requested view "_invoice".' in C:\inetpub\wwwroot\massaki\framework\web\CController.php:878
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\search\search.php(81): CController->renderPartial('_invoice')
+#1 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(126): require('C:\\inetpub\\wwwr...')
+#2 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\inetpub\\wwwr...', NULL, true)
+#3 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): CBaseController->renderFile('C:\\inetpub\\wwwr...', NULL, true)
+#4 C:\inetpub\wwwroot\massaki\framework\web\CController.php(782): CController->renderPartial('search', NULL, true)
+#5 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\SearchController.php(25): CController->render('search')
+#6 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): SearchController->actionSearch()
+#7 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): CController->run('search')
+#11 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController('search/search')
+#12 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/massaki/rechnungstool/index.php?r=search/search
+HTTP_REFERER=http://localhost:8888/massaki/rechnungstool/index.php?r=search/search
+---
+2015/10/26 14:45:53 [error] [exception.CException] exception 'CException' with message 'Property "TbDatePicker.format" is not defined.' in C:\inetpub\wwwroot\massaki\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CWidgetFactory.php(161): CComponent->__set('format', 'yyyy-mm-dd')
+#1 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SearchController), 'booster.widgets...', Array)
+#2 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(180): CBaseController->createWidget('booster.widgets...', Array)
+#3 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\search\search.php(74): CBaseController->widget('booster.widgets...', Array)
+#4 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(126): require('C:\\inetpub\\wwwr...')
+#5 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\inetpub\\wwwr...', NULL, true)
+#6 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): CBaseController->renderFile('C:\\inetpub\\wwwr...', NULL, true)
+#7 C:\inetpub\wwwroot\massaki\framework\web\CController.php(782): CController->renderPartial('search', NULL, true)
+#8 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\SearchController.php(25): CController->render('search')
+#9 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): SearchController->actionSearch()
+#10 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): CController->run('search')
+#14 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController('search/search')
+#15 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/massaki/rechnungstool/index.php?r=search/search
+HTTP_REFERER=http://localhost:8888/massaki/rechnungstool/index.php
+---
+2015/10/26 14:46:32 [error] [php] Undefined variable: model (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\search\search.php:77)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): SearchController->renderFile()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(782): SearchController->renderPartial()
+#2 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\SearchController.php(25): SearchController->render()
+#3 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): SearchController->actionSearch()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): SearchController->runAction()
+#6 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): SearchController->runActionWithFilters()
+#7 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): SearchController->run()
+#8 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=search/search
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\search\search.php (77)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\SearchController.php (25)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/10/26 14:46:49 [error] [php] Undefined variable: endpoint (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\search\search.php:79)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): SearchController->renderFile()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(782): SearchController->renderPartial()
+#2 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\SearchController.php(25): SearchController->render()
+#3 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): SearchController->actionSearch()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): SearchController->runAction()
+#6 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): SearchController->runActionWithFilters()
+#7 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): SearchController->run()
+#8 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=search/search
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\search\search.php (79)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\SearchController.php (25)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/10/26 14:46:57 [error] [exception.CException] exception 'CException' with message 'Parameter "model" should be provided for TbEditableField' in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\yiibooster\widgets\TbEditableField.php:43
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(147): TbEditableField->init()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(180): CBaseController->createWidget('booster.widgets...', Array)
+#2 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\search\search.php(89): CBaseController->widget('booster.widgets...', Array)
+#3 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(126): require('C:\\inetpub\\wwwr...')
+#4 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\inetpub\\wwwr...', NULL, true)
+#5 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): CBaseController->renderFile('C:\\inetpub\\wwwr...', NULL, true)
+#6 C:\inetpub\wwwroot\massaki\framework\web\CController.php(782): CController->renderPartial('search', NULL, true)
+#7 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\SearchController.php(25): CController->render('search')
+#8 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): SearchController->actionSearch()
+#9 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): CController->run('search')
+#13 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController('search/search')
+#14 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/massaki/rechnungstool/index.php?r=search/search
+HTTP_REFERER=http://localhost:8888/massaki/rechnungstool/index.php
+---
+2015/10/26 15:54:47 [error] [php] Undefined variable: fakeModel (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\search\search.php:68)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): SearchController->renderFile()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(782): SearchController->renderPartial()
+#2 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\SearchController.php(23): SearchController->render()
+#3 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): SearchController->actionSearch()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): SearchController->runAction()
+#6 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): SearchController->runActionWithFilters()
+#7 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): SearchController->run()
+#8 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=search/search
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\search\search.php (68)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\SearchController.php (23)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/10/26 16:06:40 [error] [exception.CException] exception 'CException' with message 'Property "TbEditableField.emptyText" is not defined.' in C:\inetpub\wwwroot\massaki\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CWidgetFactory.php(161): CComponent->__set('emptyText', 'Start-Datum')
+#1 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SearchController), 'booster.widgets...', Array)
+#2 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(180): CBaseController->createWidget('booster.widgets...', Array)
+#3 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\search\search.php(82): CBaseController->widget('booster.widgets...', Array)
+#4 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(126): require('C:\\inetpub\\wwwr...')
+#5 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\inetpub\\wwwr...', Array, true)
+#6 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): CBaseController->renderFile('C:\\inetpub\\wwwr...', Array, true)
+#7 C:\inetpub\wwwroot\massaki\framework\web\CController.php(782): CController->renderPartial('search', Array, true)
+#8 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\SearchController.php(25): CController->render('search', Array)
+#9 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): SearchController->actionSearch()
+#10 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): CController->run('search')
+#14 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController('search/search')
+#15 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/massaki/rechnungstool/index.php?r=search/search
+---
+2015/10/26 16:34:31 [error] [php] Object of class TbButton could not be converted to string (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\search\search.php:126)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): SearchController->renderFile()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(782): SearchController->renderPartial()
+#2 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\SearchController.php(25): SearchController->render()
+#3 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): SearchController->actionSearch()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): SearchController->runAction()
+#6 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): SearchController->runActionWithFilters()
+#7 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): SearchController->run()
+#8 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=search/search
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\search\search.php (126)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\SearchController.php (25)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/10/26 16:34:32 [error] [php] Object of class TbButton could not be converted to string (C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\search\search.php:126)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): SearchController->renderFile()
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(782): SearchController->renderPartial()
+#2 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\SearchController.php(25): SearchController->render()
+#3 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): SearchController->actionSearch()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): SearchController->runAction()
+#6 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): SearchController->runActionWithFilters()
+#7 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): SearchController->run()
+#8 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=search/search
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\search\search.php (126)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\SearchController.php (25)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\index.php (13)
+2015/10/26 16:46:34 [error] [exception.CException] exception 'CException' with message 'SearchController cannot find the requested view "_searchResultsGrid".' in C:\inetpub\wwwroot\massaki\framework\web\CController.php:878
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\search\search.php(137): CController->renderPartial('_searchResultsG...')
+#1 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(126): require('C:\\inetpub\\wwwr...')
+#2 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\inetpub\\wwwr...', Array, true)
+#3 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): CBaseController->renderFile('C:\\inetpub\\wwwr...', Array, true)
+#4 C:\inetpub\wwwroot\massaki\framework\web\CController.php(782): CController->renderPartial('search', Array, true)
+#5 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\SearchController.php(25): CController->render('search', Array)
+#6 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): SearchController->actionSearch()
+#7 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): CController->run('search')
+#11 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController('search/search')
+#12 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/massaki/rechnungstool/index.php?r=search/search
+HTTP_REFERER=http://localhost:8888/massaki/rechnungstool/index.php?r=document/enterNewDoc
+---
+2015/10/26 17:50:23 [error] [exception.CException] exception 'CException' with message 'Property "SearchFormModel.textField" is not defined.' in C:\inetpub\wwwroot\massaki\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\helpers\CHtml.php(2728): CComponent->__get('textField')
+#1 C:\inetpub\wwwroot\massaki\framework\web\helpers\CHtml.php(2451): CHtml::resolveValue(Object(SearchFormModel), 'textField')
+#2 C:\inetpub\wwwroot\massaki\framework\web\helpers\CHtml.php(1533): CHtml::activeInputField('text', Object(SearchFormModel), 'textField', Array)
+#3 C:\inetpub\wwwroot\massaki\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(SearchFormModel), 'textField', Array)
+#4 [internal function]: CActiveForm->textField(Object(SearchFormModel), 'textField', Array)
+#5 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\yiibooster\widgets\TbActiveForm.php(1239): call_user_func_array(Array, Array)
+#6 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\yiibooster\widgets\TbActiveForm.php(1148): TbActiveForm->horizontalGroup(Array, Object(SearchFormModel), 'textField', Array)
+#7 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\yiibooster\widgets\TbActiveForm.php(389): TbActiveForm->customFieldGroupInternal(Array, Object(SearchFormModel), 'textField', Array)
+#8 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\search\search.php(31): TbActiveForm->textFieldGroup(Object(SearchFormModel), 'textField', Array)
+#9 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(126): require('C:\\inetpub\\wwwr...')
+#10 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\inetpub\\wwwr...', Array, true)
+#11 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): CBaseController->renderFile('C:\\inetpub\\wwwr...', Array, true)
+#12 C:\inetpub\wwwroot\massaki\framework\web\CController.php(782): CController->renderPartial('search', Array, true)
+#13 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\SearchController.php(26): CController->render('search', Array)
+#14 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): SearchController->actionSearch()
+#15 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): CController->run('search')
+#19 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController('search/search')
+#20 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/massaki/rechnungstool/index.php?r=search/search
+HTTP_REFERER=http://localhost:8888/massaki/rechnungstool/index.php?r=document/enterNewDoc
+---
+2015/10/26 17:55:15 [error] [exception.CException] exception 'CException' with message 'SearchController contains improperly nested widget tags in its view "C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\search\search.php". A TbActiveForm widget does not have an endWidget() call.' in C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php:101
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): CBaseController->renderFile('C:\\inetpub\\wwwr...', Array, true)
+#1 C:\inetpub\wwwroot\massaki\framework\web\CController.php(782): CController->renderPartial('search', Array, true)
+#2 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\SearchController.php(26): CController->render('search', Array)
+#3 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): SearchController->actionSearch()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): CController->run('search')
+#8 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController('search/search')
+#9 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/massaki/rechnungstool/index.php?r=search/search
+HTTP_REFERER=http://localhost:8888/massaki/rechnungstool/index.php?r=document/enterNewDoc
+---
+2015/10/26 18:21:40 [error] [php] Illegal offset type in isset or empty (C:\inetpub\wwwroot\massaki\framework\base\CModel.php:350)
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\yiibooster\widgets\TbActiveForm.php(1126): TbActiveForm->customFieldGroupInternal()
+#1 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\yiibooster\widgets\TbActiveForm.php(866): TbActiveForm->widgetGroupInternal()
+#2 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\search\search.php(78): TbActiveForm->select2Group()
+#3 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(126): require()
+#4 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(95): SearchController->renderInternal()
+#5 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): SearchController->renderFile()
+#6 C:\inetpub\wwwroot\massaki\framework\web\CController.php(782): SearchController->renderPartial()
+#7 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\SearchController.php(26): SearchController->render()
+#8 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): SearchController->actionSearch()
+#9 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): SearchController->runAction()
+#11 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): SearchController->runActionWithFilters()
+#12 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): SearchController->run()
+#13 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/massaki/rechnungstool/index.php?r=search/search
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\yiibooster\widgets\TbActiveForm.php (1210)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\yiibooster\widgets\TbActiveForm.php (1148)
+in C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\yiibooster\widgets\TbActiveForm.php (1126)
+2015/10/26 18:22:51 [error] [exception.CException] exception 'CException' with message 'Property "TbSelect2.width" is not defined.' in C:\inetpub\wwwroot\massaki\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CWidgetFactory.php(161): CComponent->__set('width', '260px')
+#1 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SearchController), 'booster.widgets...', Array)
+#2 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(168): CBaseController->createWidget('booster.widgets...', Array)
+#3 [internal function]: CBaseController->widget('booster.widgets...', Array, true)
+#4 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\yiibooster\widgets\TbActiveForm.php(1239): call_user_func_array(Array, Array)
+#5 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\yiibooster\widgets\TbActiveForm.php(1148): TbActiveForm->horizontalGroup(Array, Object(SearchFormModel), 'jvaName', Array)
+#6 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\yiibooster\widgets\TbActiveForm.php(1126): TbActiveForm->customFieldGroupInternal(Array, Object(SearchFormModel), 'jvaName', Array)
+#7 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\yiibooster\widgets\TbActiveForm.php(866): TbActiveForm->widgetGroupInternal('booster.widgets...', Object(SearchFormModel), 'jvaName', Array)
+#8 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\search\search.php(79): TbActiveForm->select2Group(Object(SearchFormModel), 'jvaName', Array)
+#9 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(126): require('C:\\inetpub\\wwwr...')
+#10 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\inetpub\\wwwr...', Array, true)
+#11 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): CBaseController->renderFile('C:\\inetpub\\wwwr...', Array, true)
+#12 C:\inetpub\wwwroot\massaki\framework\web\CController.php(782): CController->renderPartial('search', Array, true)
+#13 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\SearchController.php(26): CController->render('search', Array)
+#14 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): SearchController->actionSearch()
+#15 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): CController->run('search')
+#19 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController('search/search')
+#20 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/massaki/rechnungstool/index.php?r=search/search
+HTTP_REFERER=http://localhost:8888/massaki/rechnungstool/index.php?r=document/enterNewDoc
+---
+2015/10/26 18:23:06 [error] [exception.CException] exception 'CException' with message 'Property "TbSelect2.minimumInputLength" is not defined.' in C:\inetpub\wwwroot\massaki\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CWidgetFactory.php(161): CComponent->__set('minimumInputLen...', '4')
+#1 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SearchController), 'booster.widgets...', Array)
+#2 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(168): CBaseController->createWidget('booster.widgets...', Array)
+#3 [internal function]: CBaseController->widget('booster.widgets...', Array, true)
+#4 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\yiibooster\widgets\TbActiveForm.php(1239): call_user_func_array(Array, Array)
+#5 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\yiibooster\widgets\TbActiveForm.php(1148): TbActiveForm->horizontalGroup(Array, Object(SearchFormModel), 'jvaName', Array)
+#6 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\yiibooster\widgets\TbActiveForm.php(1126): TbActiveForm->customFieldGroupInternal(Array, Object(SearchFormModel), 'jvaName', Array)
+#7 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\yiibooster\widgets\TbActiveForm.php(866): TbActiveForm->widgetGroupInternal('booster.widgets...', Object(SearchFormModel), 'jvaName', Array)
+#8 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\search\search.php(78): TbActiveForm->select2Group(Object(SearchFormModel), 'jvaName', Array)
+#9 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(126): require('C:\\inetpub\\wwwr...')
+#10 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\inetpub\\wwwr...', Array, true)
+#11 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): CBaseController->renderFile('C:\\inetpub\\wwwr...', Array, true)
+#12 C:\inetpub\wwwroot\massaki\framework\web\CController.php(782): CController->renderPartial('search', Array, true)
+#13 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\SearchController.php(26): CController->render('search', Array)
+#14 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): SearchController->actionSearch()
+#15 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): CController->run('search')
+#19 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController('search/search')
+#20 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/massaki/rechnungstool/index.php?r=search/search
+HTTP_REFERER=http://localhost:8888/massaki/rechnungstool/index.php?r=document/enterNewDoc
+---
+2015/10/26 18:23:39 [error] [exception.CException] exception 'CException' with message 'Property "TbSelect2.placeholder" is not defined.' in C:\inetpub\wwwroot\massaki\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\framework\web\CWidgetFactory.php(161): CComponent->__set('placeholder', 'JVA Name')
+#1 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SearchController), 'booster.widgets...', Array)
+#2 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(168): CBaseController->createWidget('booster.widgets...', Array)
+#3 [internal function]: CBaseController->widget('booster.widgets...', Array, true)
+#4 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\yiibooster\widgets\TbActiveForm.php(1239): call_user_func_array(Array, Array)
+#5 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\yiibooster\widgets\TbActiveForm.php(1148): TbActiveForm->horizontalGroup(Array, Object(SearchFormModel), 'jvaName', Array)
+#6 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\yiibooster\widgets\TbActiveForm.php(1126): TbActiveForm->customFieldGroupInternal(Array, Object(SearchFormModel), 'jvaName', Array)
+#7 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\extensions\yiibooster\widgets\TbActiveForm.php(866): TbActiveForm->widgetGroupInternal('booster.widgets...', Object(SearchFormModel), 'jvaName', Array)
+#8 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\search\search.php(78): TbActiveForm->select2Group(Object(SearchFormModel), 'jvaName', Array)
+#9 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(126): require('C:\\inetpub\\wwwr...')
+#10 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\inetpub\\wwwr...', Array, true)
+#11 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): CBaseController->renderFile('C:\\inetpub\\wwwr...', Array, true)
+#12 C:\inetpub\wwwroot\massaki\framework\web\CController.php(782): CController->renderPartial('search', Array, true)
+#13 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\SearchController.php(26): CController->render('search', Array)
+#14 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): SearchController->actionSearch()
+#15 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): CController->run('search')
+#19 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController('search/search')
+#20 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#21 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/massaki/rechnungstool/index.php?r=search/search
+HTTP_REFERER=http://localhost:8888/massaki/rechnungstool/index.php?r=document/enterNewDoc
+---
+2015/10/26 18:31:01 [error] [exception.CException] exception 'CException' with message 'TbActiveForm and its behaviors do not have a method or closure named "select2".' in C:\inetpub\wwwroot\massaki\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\search\search.php(81): CComponent->__call('select2', Array)
+#1 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\search\search.php(81): TbActiveForm->select2(Object(SearchFormModel), 'jvaName', Array)
+#2 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(126): require('C:\\inetpub\\wwwr...')
+#3 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\inetpub\\wwwr...', Array, true)
+#4 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): CBaseController->renderFile('C:\\inetpub\\wwwr...', Array, true)
+#5 C:\inetpub\wwwroot\massaki\framework\web\CController.php(782): CController->renderPartial('search', Array, true)
+#6 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\SearchController.php(26): CController->render('search', Array)
+#7 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): SearchController->actionSearch()
+#8 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): CController->run('search')
+#12 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController('search/search')
+#13 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/massaki/rechnungstool/index.php?r=search/search
+HTTP_REFERER=http://localhost:8888/massaki/rechnungstool/index.php?r=document/enterNewDoc
+---
+2015/10/26 18:31:14 [error] [exception.CException] exception 'CException' with message 'TbActiveForm and its behaviors do not have a method or closure named "select2Input".' in C:\inetpub\wwwroot\massaki\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\search\search.php(81): CComponent->__call('select2Input', Array)
+#1 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\views\search\search.php(81): TbActiveForm->select2Input(Object(SearchFormModel), 'jvaName', Array)
+#2 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(126): require('C:\\inetpub\\wwwr...')
+#3 C:\inetpub\wwwroot\massaki\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\inetpub\\wwwr...', Array, true)
+#4 C:\inetpub\wwwroot\massaki\framework\web\CController.php(869): CBaseController->renderFile('C:\\inetpub\\wwwr...', Array, true)
+#5 C:\inetpub\wwwroot\massaki\framework\web\CController.php(782): CController->renderPartial('search', Array, true)
+#6 C:\inetpub\wwwroot\massaki\Rechnungstool\protected\controllers\SearchController.php(26): CController->render('search', Array)
+#7 C:\inetpub\wwwroot\massaki\framework\web\actions\CInlineAction.php(49): SearchController->actionSearch()
+#8 C:\inetpub\wwwroot\massaki\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\inetpub\wwwroot\massaki\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\inetpub\wwwroot\massaki\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(282): CController->run('search')
+#12 C:\inetpub\wwwroot\massaki\framework\web\CWebApplication.php(141): CWebApplication->runController('search/search')
+#13 C:\inetpub\wwwroot\massaki\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\inetpub\wwwroot\massaki\Rechnungstool\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/massaki/rechnungstool/index.php?r=search/search
+HTTP_REFERER=http://localhost:8888/massaki/rechnungstool/index.php?r=document/enterNewDoc
+---
