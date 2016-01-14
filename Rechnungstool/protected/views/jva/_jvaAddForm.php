@@ -23,17 +23,53 @@ if(isset($jvaAddFormModel)){
 			echo $form->textFieldGroup($jvaAddFormModel,'jvaCustNum');
 			echo $form->textFieldGroup($jvaAddFormModel,'jvaCustNumDesc');
 			//TODO: doesnt work like this --> cf. jvaEditForm - labelEx
-			for($i=1;$i<13;$i++){
-				echo $form->dropDownListGroup($jvaAddFormModel,'colName'.$i,array('widgetOptions'=>array('data'=>$colNames),'class'=>'col-sm-5','id'=>'addColName'.$i));
-			}
+			$tabs = array(
+				array('label' => 'IK', 'content' => '<br/>'),
+				array('label' => 'Logistik Memmelsdorf', 'content' => '<br/>'),
+				array('label' => 'Logistik Löhne', 'content' => '<br/>'),
+				array('label' => 'Wittekindshof', 'content' => '<br/>'),
+				// array('label' => 'Sammelrechnung', 'content' => '<br/>'),
+			);
 			
+			array_splice($colNames, -3);
+			
+			// echo "<pre>";
+			// var_dump($jvaAddFormModel);
+			// echo "</pre>";
+			//var_dump($colNames);			
+			//Awesome C like fix
+			foreach($tabs as &$tab) {
+				for($i=1;$i<10;$i++){
+					if($tab['label'] == 'IK'){
+						$idTab = "-Ik";
+					}else if($tab['label'] == 'Logistik Memmelsdorf'){
+						$idTab = "-Memmel";
+					}else if($tab['label'] == 'Logistik Löhne'){
+						$idTab = "-Loehne";
+					}else{
+						$idTab = "-Witte";
+					}
+					//ADD PRE-DEFINED COLUMNS
+					$tab['content'] .= $form->dropDownListGroup($jvaAddFormModel,'colName'.$i, array('widgetOptions'=>array('data'=>$colNames,'htmlOptions' => array('id'=>   'addColName'.$i .$idTab)),'class'=>'col-sm-5', 'label' => 'Spalte '.$i));
+				}
+			}
+		    echo "<br/>";
+			$this->widget(
+				'booster.widgets.TbTabs',
+				array(
+					'type' => 'pills',
+					'justified' => true,
+					'tabs' => $tabs
+				)
+			); 
+		
 		?>
 		</fieldset>
 		
 		<?php
 	
 }else{
-	echo "Huha";
+	echo "There was an error. Please try again.";
 	
 } 
 $this->endWidget();

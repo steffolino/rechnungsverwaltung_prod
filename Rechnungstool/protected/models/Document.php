@@ -12,6 +12,7 @@
  * @property string $pdf_location
  * @property string $contact_person
  * @property string $printed
+ * @property string $timeStamp
  *
  * The followings are the available model relations:
  * @property Collectiveinvoice[] $collectiveinvoices
@@ -38,14 +39,15 @@ class Document extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('counter, yearCounter, jvaId, docTypeId', 'required'),
-			array('yearCounter, jvaId, docTypeId', 'numerical', 'integerOnly'=>true),
-			array('counter', 'length', 'max'=>45),
-			array('pdf_location, contact_person', 'length', 'max'=>255),
-			array('printed', 'length', 'max'=>1),
+			// array('counter, yearCounter, jvaId, docTypeId', 'required'),
+			// array('yearCounter, jvaId, docTypeId', 'numerical', 'integerOnly'=>true),
+			// array('counter', 'length', 'max'=>45),
+			// array('pdf_location, contact_person', 'length', 'max'=>255),
+			// array('printed', 'length', 'max'=>1),
+			// array('timeStamp', 'length', 'max'=>12),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('documentId, counter, yearCounter, jvaId, docTypeId, pdf_location, contact_person, printed', 'safe', 'on'=>'search'),
+			array('documentId, counter, yearCounter, jvaId, docTypeId, pdf_location, contact_person, printed, timeStamp', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -79,6 +81,7 @@ class Document extends CActiveRecord
 			'pdf_location' => 'Pdf Location',
 			'contact_person' => 'Contact Person',
 			'printed' => 'Printed',
+			'timeStamp' => 'Time Stamp',
 		);
 	}
 
@@ -108,6 +111,7 @@ class Document extends CActiveRecord
 		$criteria->compare('pdf_location',$this->pdf_location,true);
 		$criteria->compare('contact_person',$this->contact_person,true);
 		$criteria->compare('printed',$this->printed,true);
+		$criteria->compare('timeStamp',$this->timeStamp,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

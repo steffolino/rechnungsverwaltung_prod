@@ -111,7 +111,7 @@ class Booster extends CApplicationComponent {
 	 * @var bool Whether to enable bootbox messages or not. Default value is true.
 	 * @since 1.0.5
 	 */
-	public $enableBootboxJS = true;
+	public $enableBootboxJS = false;
 
 	/**
 	 * @var bool Whether to enable bootstrap notifier.

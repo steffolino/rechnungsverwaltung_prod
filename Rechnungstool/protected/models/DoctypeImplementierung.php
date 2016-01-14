@@ -12,8 +12,7 @@ class DoctypeImplementierung extends Doctype
 				return intval($docType->docTypeId);
 			}else{
 				return NULL;
-			}
-		
-		
+			}		
 	}
+		
 }

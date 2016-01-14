@@ -22,7 +22,13 @@ class LastusedcounterImplementierung extends Lastusedcounter
 	public function incrementCounter($counterTypeId){
 		$lastUsedCounter = $this-> getLastUsedCounterById($counterTypeId);
 		$lastUsedCounter->lastUsedCounterStatus = $lastUsedCounter->lastUsedCounterStatus +1;
-		$lastUsedCounter->save();
-		
+		$lastUsedCounter->save();		
+	}
+
+	public function decrementCounter($counterTypeId){
+		$lastUsedCounter = $this-> getLastUsedCounterById($counterTypeId);
+		$lastUsedCounter->lastUsedCounterStatus = $lastUsedCounter->lastUsedCounterStatus - 1;
+		$decrementResult = $lastUsedCounter->save();		
+		return $decrementResult;
 	}
 }

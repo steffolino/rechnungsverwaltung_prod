@@ -1,24 +1,13 @@
 <?php
 
-class PdfController extends Controller
+class PdfModel extends CFormModel
 {
-	/**
-	 * Declares class-based actions.
-	 */
-	public function actions()
-	{
-	}
-	
-	/**
-	 * This is the default 'index' action that is invoked
-	 * when an action is not explicitly requested by users.
-	 */
-	public function actionIndex()
-	{		
-		$this->render('index');
-	}
-	
-	public function actionCreatePdf () {
+
+	public $jvaData;
+	public $tableHeaders;
+	public $tableData;
+
+		public function createPdf () {
 		
 		# mPDF
         $mPDF1 = Yii::app()->ePdf->mpdf();
@@ -42,7 +31,7 @@ class PdfController extends Controller
 //        $mPDF1->WriteHTML(CHtml::image(Yii::getPathOfAlias('webroot.css') . '/bg.gif' ));
 
         # Outputs ready PDF
-        $mPDF1->Output();
+        return($mPDF1->Output());
 		
 		# HTML2PDF has very similar syntax		
 		/*
@@ -51,19 +40,6 @@ class PdfController extends Controller
         $html2pdf->Output();
 		*/
 	}
-	
-		/**
-	 * This is the action to handle external exceptions.
-	 */
-	public function actionError()
-	{
-		if($error=Yii::app()->errorHandler->error)
-		{
-			if(Yii::app()->request->isAjaxRequest)
-				echo $error['message'];
-			else
-				$this->render('error', $error);
-		}
-	}
 
 }
+?>
