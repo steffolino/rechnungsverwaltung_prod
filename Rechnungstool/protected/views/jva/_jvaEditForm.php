@@ -304,6 +304,18 @@ if(isset($jvaEditFormModel) && !empty($jvaEditFormModel) && $jvaEditFormModel !=
 				),
 			)
 		);
+		echo $form->textFieldGroup($jvaEditFormModel->jvaColIk,
+			'printAmount',
+			array(
+				'class'=>'col-sm-5',
+				'label' => 'Anzahl Druck',
+				'widgetOptions' => array(
+					'htmlOptions' => array(
+						'id' => 'Druck-Ik',
+					)
+				)
+			)
+		);
 		?></div>
 		<div id="MemmelEditForm"><?php
 	echo $form->dropDownListGroup($jvaEditFormModel->jvaColMemmel->colDef1,
@@ -430,6 +442,18 @@ if(isset($jvaEditFormModel) && !empty($jvaEditFormModel) && $jvaEditFormModel !=
 						'id' => 'colName9-Memmel',
 					)
 				),
+			)
+		);
+		echo $form->textFieldGroup($jvaEditFormModel->jvaColMemmel,
+			'printAmount',
+			array(
+				'class'=>'col-md-5',
+				'label' => 'Anzahl Druck',
+				'widgetOptions' => array(
+					'htmlOptions' => array(
+						'id' => 'Druck-Memmel',
+					)
+				)
 			)
 		);
 		?></div>
@@ -560,6 +584,18 @@ if(isset($jvaEditFormModel) && !empty($jvaEditFormModel) && $jvaEditFormModel !=
 				),
 			)
 		);
+		echo $form->textFieldGroup($jvaEditFormModel->jvaColLoehne,
+			'printAmount',
+			array(
+				'class'=>'col-md-5',
+					'label' => 'Anzahl Druck',
+				'widgetOptions' => array(
+					'htmlOptions' => array(
+						'id' => 'Druck-Loehne',
+					)
+				)
+			)
+		);
 		?></div>
 		<div id="WitteEditForm"><?php
 			echo $form->dropDownListGroup($jvaEditFormModel->jvaColWitte->colDef1,
@@ -688,6 +724,18 @@ if(isset($jvaEditFormModel) && !empty($jvaEditFormModel) && $jvaEditFormModel !=
 					),
 				)
 			);
+		echo $form->textFieldGroup($jvaEditFormModel->jvaColWitte,
+			'printAmount',
+			array(
+				'class'=>'col-md-5',
+					'label' => 'Anzahl Druck',
+				'widgetOptions' => array(
+					'htmlOptions' => array(
+						'id' => 'Druck-Witte',
+					)
+				)
+			)
+		);
 		?></div><?php
 
 
@@ -728,7 +776,7 @@ if(isset($jvaEditFormModel) && !empty($jvaEditFormModel) && $jvaEditFormModel !=
 				// 'widgetOptions' => array(
 					// 'data'=> CHtml::listData(ColDef::model()->findAll(), 'colDefId', 'colName'),//$colNames, 
 					// 'htmlOptions' => array(
-						// 'id' => 'colName12',
+						// 'id' => 'colName12-Witte',
 						// 'options' => array($jvaEditFormModel->jvaColIk->colDef12->colDefId => array('selected' => true)),
 					// )
 				// ),

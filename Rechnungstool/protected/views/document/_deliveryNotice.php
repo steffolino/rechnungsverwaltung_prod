@@ -167,6 +167,11 @@ $(document).ready(function () {
 						var dataArr = jQuery.parseJSON(data);
 						$("#pdfFilePath").attr('src', dataArr.filePath);
 						$("#counterType").val(dataArr.counterType);
+						if(dataArr.printedFlag === 1){
+							$("#printed").prop('checked', true);
+						}else{
+							$("#printed").prop('checked', false);
+						}
 						$("#previewModal").modal('show');
 				  });	
 		}

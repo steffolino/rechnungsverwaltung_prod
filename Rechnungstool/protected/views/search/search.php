@@ -56,7 +56,7 @@
 																		return {
 																			results: $.map(data, function (item) {
 																				return {
-																					text: item.jvaName + " | " + item.jvaNameExt,
+																					text: item.jvaName + "|" + item.jvaNameExt,
 																					value: item.jvaDataId,
 																					id: item.jvaDataId
 																				}

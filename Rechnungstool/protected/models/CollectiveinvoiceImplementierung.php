@@ -22,7 +22,7 @@ class CollectiveinvoiceImplementierung extends Collectiveinvoice
 			$counter++;	
 			
 		}
-		return $counter;
+		return $newId;
 	}
 	
 	public function getLastCollectiveId(){
@@ -40,6 +40,13 @@ class CollectiveinvoiceImplementierung extends Collectiveinvoice
 		
 			return ++$lastId;
 		
+		
+	}
+	
+	public function deleteCollectiveInvoicePerId($collectiveId){
+		// $coll=Collectiveinvoice::model()->findAll('collectInvoiceId=:collectiveId',array('collectiveId'=>$collectiveId)); 
+		// $coll->delete();
+		 Yii::app()->db->createCommand()->delete('collectiveinvoice','collectInvoiceId=:collectiveId',array('collectiveId'=>$collectiveId));
 		
 	}
 }

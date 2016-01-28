@@ -16,11 +16,47 @@ class SearchController extends Controller
 				$this->render('error', $error);
 		}
 	}
+	public function actionUpdatedPrintStatus(){
+		$docImpl = new DocumentImplementierung;
+		$document = $docImpl->getDocumentWithCounter($_POST['counter']);
+		$docImpl->updatePrintedStatus($document->documentId,$_POST['printedFlag']);
+		echo "true";
+	}
+	
 
+	public function actionGetPreviewPdf(){
+		
+		if(isset($_POST['documentCounter'][0])){
+			
+			$selectedCounter = $_POST['documentCounter'][0];
+			$docImpl = new DocumentImplementierung;
+			
+			$document = $docImpl->getDocumentWithCounter($selectedCounter);
+			
+			$printedFlag = $document->printed;
+			$path = $document->pdf_location;
+			$path =  $path;
+			if (strpos($document->counter, 'IK') ){
+				$printAmount = $document->jva->jvaColIk->printAmount;
+			}else if(strpos($document->counter, 'Memmelsdorf')){
+				
+				$printAmount = $document->jva->jvaColMemmel->printAmount;
+			}else if(strpos($document->counter, 'Loehne')){
+				$printAmount = $document->jva->jvaColLoehne->printAmount;
+			}else{
+				$printAmount = $document->jva->jvaColWitte->printAmount;
+			}
+			echo json_encode(array("path"=>$path,"printAmount"=>trim($printAmount),"counter"=>$document->counter,"printedFlag"=>$printedFlag)); 
+			//var_dump($path);
+		}else{
+			echo "Error";
+		}
+	}
+	
 	public function actionSearch ()
 	{
 		
-			if(isset($_POST['searchTerm'])){
+			if(isset($_POST['searchTerm']) && !isset($_POST['filtersEnabled'])){
 				$formModel = new SearchFormModel;
 				$formModel->freeSearchTerm = $_POST['searchTerm'];
 				$gridDataProviderData = $formModel->searchWithoutFilter();
@@ -43,20 +79,23 @@ class SearchController extends Controller
 				$formModel->freeSearchTerm = $_POST['searchTerm'];
 				if($_POST['startDate'] !== "Empty"){
 					$startDate = new DateTime($_POST['startDate']);
-					$date->format('Y-m-d');
-					$formModel->startDate = $startDate;
+				$formModel->startDate =	$startDate->format('Y-m-d H:i:s');
+					
 				}else{
 					$formModel->startDate = NULL;
 				}
-				if($_POST['startDate'] !== "Empty"){
+				if($_POST['endDate'] !== "Empty"){
 					$endDate = new DateTime($_POST['endDate']);
-					$date->format('Y-m-d');
-					$formModel->endDate = $endDate;
+					$formModel->endDate = $endDate->format('Y-m-d H:i:s');
+					
 				}else{
 					$formModel->endDate = NULL;
 				}
-				if(!empty($_POST['nameSet']) && $_POST['nameSet'] !== "JVA Name"){
-					$formModel->jvaName = $_POST['nameSet'];
+				
+				$nameSet = trim($_POST['nameSet']);
+				//var_dump(empty($nameSet));
+				if(!empty($nameSet)&& $nameSet !=="  " && $nameSet !=="" && strlen($nameSet) >2 && $nameSet !== "JVA Name"){
+					$formModel->jvaName = $nameSet;
 				}else{
 					$formModel->jvaName = NULL;
 				}
@@ -65,6 +104,7 @@ class SearchController extends Controller
 				}else{
 					$formModel->docType = NULL;
 				}
+				//var_dump($formModel->jvaName);
 				$gridDataProviderData = $formModel->searchWithFilter();
 				$gridDataProvider  =new CArrayDataProvider($gridDataProviderData, 	
 					array(

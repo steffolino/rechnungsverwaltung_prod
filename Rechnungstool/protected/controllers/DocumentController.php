@@ -42,7 +42,18 @@ class DocumentController extends Controller
 		$jvaNamePlusExtArray = explode("|",$jvaNamePlusExt);
 		$jvaName = $jvaNamePlusExtArray[0];
 		$jvaExt = $jvaNamePlusExtArray[1];
-	
+		$docTypeId = $docTypeImpl->getDocIdByName($docTypeName);
+		$jva = $jvaModel->getJvaByName(trim($jvaName), trim($jvaExt));
+		if($numberCircle === "ik"){
+				$defaultColConfig = $jvaModel->getDefColByJva($jva,"Ik");
+			}else if($numberCircle === "memmel"){
+				$defaultColConfig = $jvaModel->getDefColByJva($jva,"Memmel");
+			}else if($numberCircle === "loehne"){
+				$defaultColConfig = $jvaModel->getDefColByJva($jva,"Loehne");
+			}else{
+				$defaultColConfig = $jvaModel->getDefColByJva($jva,"Witte");	
+			}
+		$printAmount = $defaultColConfig->printAmount;
 		if($docTypeName === "Sammelrechnung"){
 			$doc = new DocumentImplementierung;
 			// $possibleDocs = $doc->getInvoicesDeliveryNotInCollective($jvaName,$jvaExt);
@@ -53,21 +64,11 @@ class DocumentController extends Controller
 						'keyField' => 'documentId',  
 						'id'=>'documentId'
 						,));
-			$gridColumns = array('documentId::ID','jvaName::Jva Name','timeStamp','counter::Zähler');
+			$gridColumns = array('documentId::ID','jvaName::Jva Name','timeStamp::Datum','counter::Zähler');
 			$this->renderPartial('_collectiveInvoice', array('gridDataProvider'=> $gridDataProvider ,'gridColumns'=>$gridColumns), false, true);
 		
 		} else {
-			$docTypeId = $docTypeImpl->getDocIdByName($docTypeName);
-			$jva = $jvaModel->getJvaByName(trim($jvaName), trim($jvaExt));
-			if($numberCircle === "ik"){
-				$defaultColConfig = $jvaModel->getDefColByJva($jva,"Ik");
-			}else if($numberCircle === "memmel"){
-				$defaultColConfig = $jvaModel->getDefColByJva($jva,"Memmel");
-			}else if($numberCircle === "loehne"){
-				$defaultColConfig = $jvaModel->getDefColByJva($jva,"Loehne");
-			}else{
-				$defaultColConfig = $jvaModel->getDefColByJva($jva,"Witte");	
-			}
+			
 			$headerAndData = array();
 			$header = array();
 			$data = array();
@@ -202,7 +203,7 @@ class DocumentController extends Controller
 			array_push($everything,$allData);
 			
 			//var_dump($header);
-			echo json_encode($everything);
+			echo json_encode(array('dataVal'=>$everything,'printAmount'=>$printAmount));
 		}
 		
 	}
@@ -297,16 +298,15 @@ class DocumentController extends Controller
 
 		// $result = $neuDoc->insertNewDocument($docType,$jvaId,$contactPerson,$allRows,$counterType,$defaultDocument, $completeFilePathName);
 		$result = $neuDoc->insertNewDocument($docType,$jvaId,$contactPerson,$allRows,$counterType,$defaultDocument, "pdf/temp/".$docType."/".$fileName);
-
+		$printedFlag = $result->printed;
 
         $mPDF1->WriteHTML($stylesheet, 1);
-        $mPDF1->WriteHTML($this->render('pdfTemplate', array('displayData' => $contentNumeric, 'header' => $header, 'jva' => $jva, 'curDate' => $curDate, 'invoiceExtra' => $invoiceExtra, 'docType' => $docType, 'counter' => $result->counter), true));
-
+		$mPDF1->WriteHTML($this->render('pdfTemplate', array('displayData' => $contentNumeric, 'header' => $header, 'jva' => $jva, 'curDate' => $curDate, 'invoiceExtra' => $invoiceExtra, 'docType' => $docType, 'counter' => $result->counter), true));
 
 		$mPDF1->Output($completeFilePathName, "F");
 		
 		//pass also $documentId, leave out counter 
-		echo json_encode(array('filePath' => "pdf/temp/".$docType."/".$fileName, 'counterType' => $counterType));
+		echo json_encode(array('filePath' => "pdf/temp/".$docType."/".$fileName, 'counterType' => $counterType,'printedFlag'=>$printedFlag));
 		// echo var_dump($result->counter);
 		// var_dump($result);
 	}
@@ -319,6 +319,10 @@ class DocumentController extends Controller
 			$docImpl = new DocumentImplementierung;
 			//TODO: Revert Counter
 			$revertResult = $docImpl->revertCounter($counterType);
+			if(isset($_POST['docType'])){
+				$collectiveImpl = new CollectiveinvoiceImplementierung;
+				$collectiveImpl->deleteCollectiveInvoicePerId($_POST['collId']);
+			}
 			if($revertResult) {
 				$result = $docImpl->deleteDocumentByFilePath($filePath);
 				unlink(Yii::getPathOfAlias('webroot')."/".$filePath);
@@ -349,25 +353,100 @@ class DocumentController extends Controller
 		//TODO: generate PDF from single documents and preview in modal and calculate total of all invoices as collectiveinvoicetotal
 		// rest similar to regular invoice stuff: preview -> save / cancel
 		if(isset($_POST['data'])){
+			$jvaModel = new JvaModel;
 			$collectiveData = $_POST['data'];
 			$collectiveImpl = new CollectiveinvoiceImplementierung;
-			$result = $collectiveImpl->insertNewCollectiveInvoice($collectiveData);
-			if($result > 0){
-				$doc = new DocumentImplementierung;
-				$jvaNamePlusExt = $_POST["jva"];
-				$jvaNamePlusExtArray = array();
-				$jvaNamePlusExtArray = explode("|",$jvaNamePlusExt);
-				$jvaName = $jvaNamePlusExtArray[0];
-				$jvaExt = $jvaNamePlusExtArray[1];
-				$possibleDocs = $doc->getInvoicesDeliveryNotInCollective($jvaName,$jvaExt);
-				$gridDataProvider  =new CArrayDataProvider($possibleDocs, 	
-					array(
-						'keyField' => 'documentId',  
-						'id'=>'documentId'
-						,));
-				$gridColumns = array('documentId::ID','jvaName::Jva Name','timeStamp','counter::Zähler');
-				$this->renderPartial('_collectiveInvoice', array('gridDataProvider'=> $gridDataProvider ,'gridColumns'=>$gridColumns), false, true);	
+			$resultCounter = $collectiveImpl->insertNewCollectiveInvoice($collectiveData);
+			$jvaNamePlusExt = $_POST["jva"];
+			$docType = $_POST["docType"];
+			$jvaNamePlusExtArray = array();
+			$jvaNamePlusExtArray = explode("|",$jvaNamePlusExt);
+			$jvaName = $jvaNamePlusExtArray[0];
+			$jvaExt = $jvaNamePlusExtArray[1];
+			$counterType = $_POST['counterType'];
+			$jva = $jvaModel->getJvaByName(trim($jvaName), trim($jvaExt));
+			//This is for re-rendering of the yiiBooster
+			// if($result > 0){
+				// $doc = new DocumentImplementierung;
+				// $jvaNamePlusExt = $_POST["jva"];
+				// $jvaNamePlusExtArray = array();
+				// $jvaNamePlusExtArray = explode("|",$jvaNamePlusExt);
+				// $jvaName = $jvaNamePlusExtArray[0];
+				// $jvaExt = $jvaNamePlusExtArray[1];
+				// $possibleDocs = $doc->getInvoicesDeliveryNotInCollective($jvaName,$jvaExt);
+				// $gridDataProvider  =new CArrayDataProvider($possibleDocs, 	
+					// array(
+						// 'keyField' => 'documentId',  
+						// 'id'=>'documentId'
+						// ,));
+				// $gridColumns = array('documentId::ID','jvaName::Jva Name','timeStamp','counter::Zähler');
+				// $this->renderPartial('_collectiveInvoice', array('gridDataProvider'=> $gridDataProvider ,'gridColumns'=>$gridColumns), false, true);	
+			// }
+			$neuDoc = new DocumentImplementierung;
+			//Start of PDF Preview Modal after selecting data for collective invoices
+			//Hardcode Header 
+			$header = array('Rechnungsnummer','Rechnungsdatum','Rechnungsbetrag');
+			
+			//get data of selected 
+			$contentNumeric = $neuDoc->getNecessaryDataForCollectivePreview($collectiveData);
+			$invoiceExtra = $neuDoc->getInvoiceExtraFromAllSum($collectiveData);
+			
+			
+			$allRows = array();
+			$row  = array();
+			$counter = 0;
+			//PARSE NUMBERS INSTEAD OF SUM()
+			foreach($contentNumeric as $zeile){
+				
+				foreach($zeile as $cell){
+					array_push($row,$cell);
+					$counter++;
+				}
+				for($counter;$counter <= 11;$counter++){
+					array_push($row,NULL);
+				}
+				$counter++;
+				foreach($header as $colHeader){
+					array_push($row,$colHeader);
+					$counter++;
+				}
+				for($counter;$counter <= 23;$counter++){
+					array_push($row,NULL);
+				}
+				array_push($allRows,$row);
+				
+				$counter = 0;
+				$row  = array();
 			}
+			$mPDF1 = Yii::app()->ePdf->mpdf();
+
+			# You can easily override default constructor's params
+			$mPDF1 = Yii::app()->ePdf->mpdf('', 'A4');
+
+			# render (full page)
+			date_default_timezone_set('Europe/Berlin');
+			$curDate = date("Ymd_His");
+
+			$filePath = Yii::getPathOfAlias('webroot')."/pdf/temp/".$docType."/";
+			// $filePath = Yii::getPathOfAlias('webroot')."/pdf/temp/";
+			$fileName = str_replace(" ", "", $jvaName)."_".$docType."_".$curDate.".pdf";
+
+			$completeFilePathName = $filePath.$fileName;
+
+			# Load a stylesheet
+			$stylesheet = file_get_contents(Yii::getPathOfAlias('bootstrap.assets.css') . '\bootstrap.css');
+			
+			$result = $neuDoc->insertNewDocument($docType,$jvaId,$contactPerson,$allRows,$counterType,$defaultDocument, "pdf/temp/".$docType."/".$fileName);
+			$printedFlag = $result->printed;
+
+			$mPDF1->WriteHTML($stylesheet, 1);
+			$mPDF1->WriteHTML($this->render('pdfCollectiveTemplate', array('displayData' => $contentNumeric, 'header' => $header, 'jva' => $jva, 'curDate' => $curDate, 'invoiceExtra' => $invoiceExtra, 'docType' => $docType, 'counter' => $result->counter), true));
+
+			$mPDF1->Output($completeFilePathName, "F");
+		
+			//pass also $documentId, leave out counter 
+			echo json_encode(array('filePath' => "pdf/temp/".$docType."/".$fileName, 'counterType' => $counterType,'newId'=>$resultCounter,'printedFlag'=>$printedFlag));
+			//var_dump($contentNumeric);
 		}
 	}
 	

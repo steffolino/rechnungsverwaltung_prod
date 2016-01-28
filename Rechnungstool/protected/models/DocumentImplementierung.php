@@ -27,7 +27,7 @@ class DocumentImplementierung extends Document
 		$newDoc->yearCounter = yearcounter::model()->findByPK(1)->yearCounterId;
 		
 		date_default_timezone_set('Europe/Berlin');
-		$newDoc->timeStamp = date('Y-m-d H:m:s');
+		$newDoc->timeStamp = date('Y-m-d H:i:s');
 
 		$pdfLocation = $filePathName;
 		$newDoc->pdf_location = $pdfLocation;
@@ -239,7 +239,7 @@ class DocumentImplementierung extends Document
 			}
 		//Document::model()->with('docType')->findAll('jvaId=:jvaId AND documentId NOT IN collectiveinvoices.deliveryNoteId AND (docTypeName = "Rechnung" OR docTypeName = "Lieferschein")',array('jvaId'=>$jvaId));
 		return $document = Yii::app()->db->createCommand()
-					->select()
+					->select("*, DATE_FORMAT(timestamp, '%d.%m.%Y') AS timeStamp")
 					->from('document, docType, jvaData')
 					->where('document.docTypeId = docType.docTypeId AND document.jvaId=:jvaId ', array(':jvaId'=>$jvaId))
 					->andWhere('docTypeName = "Rechnung" OR docTypeName = "Lieferschein"')
@@ -282,6 +282,221 @@ class DocumentImplementierung extends Document
 		// $newDoc->yearCounter = yearcounter::model()->findByPK(1)->yearCounterId;
 	}
 	
+	public function getDocumentWithCounter($counter){
+			$doc = Document::model()->find(
+				'counter=:counter',
+				array(':counter'=>$counter)
+			);
+			if(!empty($doc)){
+				return $doc;
+			}else{
+				return NULL;
+			}
+	}
+	
+	public function getSumDataPerDocument($arrayOfDocumentValues,$mode){
+		$sumNineTeen;
+		$sumSeven;
+		$sumZero;
+		foreach($arrayOfDocumentValues as $row){
+			if($row['value1'] === "Gesamt:"){
+				$counter = 0;
+				foreach($row as $cell){
+					if(isset($cell) && $cell !== NULL){
+						$counter++;
+					}else{
+						break;
+					}
+					
+				}
+				$counter--;
+				$counter--;
+				$readCounter = "value" . $counter;
+				$sumNineTeen = $row[$readCounter];
+				//var_dump($sumNineTeen);
+				$counter--;
+				$readCounter = "value" . $counter;
+				$sumSeven = $row[$readCounter];
+				//var_dump($sumSeven);
+				$counter--;
+				$readCounter = "value" . $counter;
+				$sumZero = $row[$readCounter];
+				//var_dump($sumZero);
+				
+			}
+		}
+		if($mode === 'brutto'){
+			$sum = ($sumNineTeen + $sumNineTeen * 0.19) + ($sumSeven + $sumSeven * 0.07) + ($sumZero);
+		}else{
+			$sum = $sumNineTeen  + $sumSeven  + $sumZero;
+		}
+		return $sum;
+	}
+	
+	public function getZeroTax($arrayOfDocumentValues){
+		$sumNineTeen;
+		$sumSeven;
+		$sumZero;
+		foreach($arrayOfDocumentValues as $row){
+			if($row['value1'] === "Gesamt:"){
+				$counter = 0;
+				foreach($row as $cell){
+					if(isset($cell) && $cell !== NULL){
+						$counter++;
+					}else{
+						break;
+					}
+					
+				}
+				$counter--;
+				$counter--;
+				$readCounter = "value" . $counter;
+				$sumNineTeen = $row[$readCounter];
+				//var_dump($sumNineTeen);
+				$counter--;
+				$readCounter = "value" . $counter;
+				$sumSeven = $row[$readCounter];
+				//var_dump($sumSeven);
+				$counter--;
+				$readCounter = "value" . $counter;
+				$sumZero = $row[$readCounter];
+				//var_dump($sumZero);
+				
+			}
+		}
+		return $sumZero;
+		
+	}
+	
+	public function getNineTeenTax($arrayOfDocumentValues){
+		$sumNineTeen;
+		$sumSeven;
+		$sumZero;
+		foreach($arrayOfDocumentValues as $row){
+			if($row['value1'] === "Gesamt:"){
+				$counter = 0;
+				foreach($row as $cell){
+					if(isset($cell) && $cell !== NULL){
+						$counter++;
+					}else{
+						break;
+					}
+					
+				}
+				$counter--;
+				$counter--;
+				$readCounter = "value" . $counter;
+				$sumNineTeen = $row[$readCounter];
+				//var_dump($sumNineTeen);
+				$counter--;
+				$readCounter = "value" . $counter;
+				$sumSeven = $row[$readCounter];
+				//var_dump($sumSeven);
+				$counter--;
+				$readCounter = "value" . $counter;
+				$sumZero = $row[$readCounter];
+				//var_dump($sumZero);
+				
+			}
+		}
+		return $sumNineTeen;
+		
+	}
+	
+	public function getSevenTax($arrayOfDocumentValues){
+		$sumNineTeen;
+		$sumSeven;
+		$sumZero;
+		foreach($arrayOfDocumentValues as $row){
+			if($row['value1'] === "Gesamt:"){
+				$counter = 0;
+				foreach($row as $cell){
+					if(isset($cell) && $cell !== NULL){
+						$counter++;
+					}else{
+						break;
+					}
+					
+				}
+				$counter--;
+				$counter--;
+				$readCounter = "value" . $counter;
+				$sumNineTeen = $row[$readCounter];
+				//var_dump($sumNineTeen);
+				$counter--;
+				$readCounter = "value" . $counter;
+				$sumSeven = $row[$readCounter];
+				//var_dump($sumSeven);
+				$counter--;
+				$readCounter = "value" . $counter;
+				$sumZero = $row[$readCounter];
+				//var_dump($sumZero);
+				
+			}
+		}
+		
+		return $sumSeven;
+		
+	}
+	
+	public function getNecessaryDataForCollectivePreview($collectiveData){
+		$resultArray = array();
+		$documentArray = array();
+		$documentValuesImpl = new DocumentvaluesImplementierung;
+		foreach($collectiveData as $documentId){
+			$document = $this->getDocumentWithId($documentId);
+			array_push($documentArray,$document->counter);
+			array_push($documentArray,$document->timeStamp);
+			$documentValues = $documentValuesImpl->getDocumentValuesByDocumentId($document->documentId);
+			$sum = $this->getSumDataPerDocument($documentValues,'brutto');
+			//$sum= 0;
+			array_push($documentArray,$sum);
+			array_push($resultArray,$documentArray);
+			$documentArray = array();
+		}
+		return $resultArray;
+	}
+	
+	public function getInvoiceExtraFromAllSum($collectiveData){
+		//TODO: calculate Invoice Extra Array
+		$documentValuesImpl = new DocumentvaluesImplementierung;
+		$resultArray = array();
+		$totalNetto = 0;
+		$totalBrutto = 0;
+		$sevenTotal = 0;
+		$nineteenTotal = 0;
+		$zeroTotal = 0;
+		$extern1 = 0;
+		$extern2 = 0;
+		$alreadyPayed = 0;
+		$rest= 0;
+		foreach($collectiveData as $documentId){
+			$document = $this->getDocumentWithId($documentId);
+			$documentValues = $documentValuesImpl->getDocumentValuesByDocumentId($document->documentId);
+			$totalBrutto = $totalBrutto +  $this->getSumDataPerDocument($documentValues,'brutto');
+			$totalNetto = $totalNetto + $this->getSumDataPerDocument($documentValues,'netto');
+			$zeroTotal = $zeroTotal + $this->getZeroTax($documentValues);
+			$sevenTotal = $sevenTotal + $this->getSevenTax($documentValues);
+			$nineteenTotal = $nineteenTotal + $this->getNineTeenTax($documentValues);
+		}
+		array_push($resultArray,$totalNetto);
+		array_push($resultArray,$zeroTotal);
+		array_push($resultArray,$sevenTotal);
+		array_push($resultArray,$nineteenTotal);
+		array_push($resultArray,$totalBrutto);
+		array_push($resultArray,$extern1);
+		array_push($resultArray,$extern2);
+		array_push($resultArray,$alreadyPayed);
+		array_push($resultArray,$rest);
+		return $resultArray;
+	}
+	
+	public function updatePrintedStatus($documentId,$printedFlag){
+		$document = $this->getDocumentWithId($documentId);
+		$document->printed = $printedFlag;
+		$document->save();
+		
+	}
 }
 
 ?>

@@ -3967,3 +3967,17 @@ REQUEST_URI=/rechnungsverwaltung_prod/rechnungstool/index.php?r=document/addToCo
 in C:\inetpub\wwwroot\rechnungsverwaltung_prod\Rechnungstool\protected\models\DocumentImplementierung.php (227)
 in C:\inetpub\wwwroot\rechnungsverwaltung_prod\Rechnungstool\protected\controllers\DocumentController.php (362)
 in C:\inetpub\wwwroot\rechnungsverwaltung_prod\Rechnungstool\index.php (13)
+2016/01/28 13:34:06 [error] [php] fopen(C:\inetpub\wwwroot\rechnungsverwaltung_prod\rechnungstool/pdf/temp/Sammelrechnung/JVAEbing_Sammelrechnung_20160128_133402.pdf): failed to open stream: No such file or directory (C:\inetpub\wwwroot\rechnungsverwaltung_prod\Rechnungstool\protected\extensions\vendors\mpdf\mpdf.php:8335)
+Stack trace:
+#0 C:\inetpub\wwwroot\rechnungsverwaltung_prod\framework\web\actions\CInlineAction.php(49): DocumentController->actionAddToCollectiveInvoice()
+#1 C:\inetpub\wwwroot\rechnungsverwaltung_prod\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\inetpub\wwwroot\rechnungsverwaltung_prod\framework\web\CController.php(286): DocumentController->runAction()
+#3 C:\inetpub\wwwroot\rechnungsverwaltung_prod\framework\web\CController.php(265): DocumentController->runActionWithFilters()
+#4 C:\inetpub\wwwroot\rechnungsverwaltung_prod\framework\web\CWebApplication.php(282): DocumentController->run()
+#5 C:\inetpub\wwwroot\rechnungsverwaltung_prod\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\inetpub\wwwroot\rechnungsverwaltung_prod\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#7 C:\inetpub\wwwroot\rechnungsverwaltung_prod\Rechnungstool\index.php(13): CWebApplication->run()
+REQUEST_URI=/rechnungsverwaltung_prod/rechnungstool/index.php?r=document/addToCollectiveInvoice
+in C:\inetpub\wwwroot\rechnungsverwaltung_prod\Rechnungstool\protected\extensions\vendors\mpdf\mpdf.php (8335)
+in C:\inetpub\wwwroot\rechnungsverwaltung_prod\Rechnungstool\protected\controllers\DocumentController.php (445)
+in C:\inetpub\wwwroot\rechnungsverwaltung_prod\Rechnungstool\index.php (13)

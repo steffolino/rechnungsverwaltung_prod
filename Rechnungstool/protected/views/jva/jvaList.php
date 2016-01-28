@@ -366,6 +366,7 @@
 		jvaDataArray.push($('#colName7-Ik option:selected').text());
 		jvaDataArray.push($('#colName8-Ik option:selected').text());
 		jvaDataArray.push($('#colName9-Ik option:selected').text());
+		
 		jvaDataArray.push($('#colName1-Memmel option:selected').text());
 		jvaDataArray.push($('#colName2-Memmel option:selected').text());
 		jvaDataArray.push($('#colName3-Memmel option:selected').text());
@@ -375,6 +376,7 @@
 		jvaDataArray.push($('#colName7-Memmel option:selected').text());
 		jvaDataArray.push($('#colName8-Memmel option:selected').text());
 		jvaDataArray.push($('#colName9-Memmel option:selected').text());
+		
 		jvaDataArray.push($('#colName1-Loehne option:selected').text());
 		jvaDataArray.push($('#colName2-Loehne option:selected').text());
 		jvaDataArray.push($('#colName3-Loehne option:selected').text());
@@ -384,6 +386,7 @@
 		jvaDataArray.push($('#colName7-Loehne option:selected').text());
 		jvaDataArray.push($('#colName8-Loehne option:selected').text());
 		jvaDataArray.push($('#colName9-Loehne option:selected').text());
+		
 		jvaDataArray.push($('#colName1-Witte option:selected').text());
 		jvaDataArray.push($('#colName2-Witte option:selected').text());
 		jvaDataArray.push($('#colName3-Witte option:selected').text());
@@ -393,6 +396,10 @@
 		jvaDataArray.push($('#colName7-Witte option:selected').text());
 		jvaDataArray.push($('#colName8-Witte option:selected').text());
 		jvaDataArray.push($('#colName9-Witte option:selected').text());
+		jvaDataArray.push($('#Druck-Ik').val());
+		jvaDataArray.push($('#Druck-Memmel').val());
+		jvaDataArray.push($('#Druck-Loehne').val());
+		jvaDataArray.push($('#Druck-Witte').val());
 		// jvaDataArray.push($('#colName10 option:selected').text());
 		// jvaDataArray.push($('#colName11 option:selected').text());
 		// jvaDataArray.push($('#colName12 option:selected').text());
@@ -425,6 +432,7 @@
 			jvaDataArray.push($('#addColName7-Ik option:selected').text());
 			jvaDataArray.push($('#addColName8-Ik option:selected').text());
 			jvaDataArray.push($('#addColName9-Ik option:selected').text());
+			
 			jvaDataArray.push($('#addColName1-Memmel option:selected').text());
 			jvaDataArray.push($('#addColName2-Memmel option:selected').text());
 			jvaDataArray.push($('#addColName3-Memmel option:selected').text());
@@ -434,6 +442,7 @@
 			jvaDataArray.push($('#addColName7-Memmel option:selected').text());
 			jvaDataArray.push($('#addColName8-Memmel option:selected').text());
 			jvaDataArray.push($('#addColName9-Memmel option:selected').text());
+			
 			jvaDataArray.push($('#addColName1-Loehne option:selected').text());
 			jvaDataArray.push($('#addColName2-Loehne option:selected').text());
 			jvaDataArray.push($('#addColName3-Loehne option:selected').text());
@@ -443,6 +452,7 @@
 			jvaDataArray.push($('#addColName7-Loehne option:selected').text());
 			jvaDataArray.push($('#addColName8-Loehne option:selected').text());
 			jvaDataArray.push($('#addColName9-Loehne option:selected').text());
+			
 			jvaDataArray.push($('#addColName1-Witte option:selected').text());
 			jvaDataArray.push($('#addColName2-Witte option:selected').text());
 			jvaDataArray.push($('#addColName3-Witte option:selected').text());
@@ -452,6 +462,10 @@
 			jvaDataArray.push($('#addColName7-Witte option:selected').text());
 			jvaDataArray.push($('#addColName8-Witte option:selected').text());
 			jvaDataArray.push($('#addColName9-Witte option:selected').text());
+			jvaDataArray.push($('#printAmount-Ik').val());
+			jvaDataArray.push($('#printAmount-Memmel').val());
+			jvaDataArray.push($('#printAmount-Loehne').val());
+			jvaDataArray.push($('#printAmount-Witte').val());
 			// jvaDataArray.push($('#JvaAddModel_colName10 option:selected').text());
 			// jvaDataArray.push($('#JvaAddModel_colName11 option:selected').text());
 			// jvaDataArray.push($('#JvaAddModel_colName12 option:selected').text());
@@ -472,6 +486,7 @@
 				$('#JvaAddModel_jvaCustNumDesc').val('');
 				$('#JvaAddModel_jvaFooter').val('');
 				$('#JvaAddModel_jvaAddress').val('');
+				
 				setDefaultColConfigs();
 				$("#jvaListContent").html(data);
 				$("#jvaNameHeading").html('...');

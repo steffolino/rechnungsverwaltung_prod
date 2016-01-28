@@ -132,7 +132,7 @@ var hot;
 					<div class="row panel-footer">
 							<div class="row">
 								<div class="col-md-4 col-md-offset-8">
-									<div class="btn-group btn-group btn-group-justified" role="group" aria-label="JVA Liste bearbeiten">
+									<div class="btn-group btn-group btn-group-justified" id="previewCancelGroup" role="group" aria-label="JVA Liste bearbeiten">
 										<a role=button class="btn btn-danger"><i class="fa fa-close"id="cancelDoc"> Abbrechen</i></a>
 										<a role=button class="btn btn-success"><i class="fa fa-check" id="writingDoc"> Vorschau</i></a>
 									</div>
@@ -152,11 +152,36 @@ var hot;
 	  </div>
 	  <div class="modal-footer">
 		<div class="alert alert-info col-md-7" style="font-size: 14px; padding:12px;">
-			<p>Dieses Dokument sollte 3 mal gedruckt werden.</p>
+			<p>Dieses Dokument sollte <div id="printAmountLabel"></div> mal gedruckt werden.</p>
 		</div>
+		<input type="checkbox"  id="printed" > Schon gedruckt?<br>
 		<button id="deleteButton" type="button" class="btn btn-default" data-dismiss="modal">Abbrechen</button>
 		<a id="saveButton" type="submit" class="btn btn-primary">Speichern</a>
 		<input id="counterType" type=hidden />
+	  </div>
+	</div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal " id="previewModalCollect">
+  <div class="modal-dialog">
+	<div class="modal-content">
+	  <div class="modal-header">
+		<h4 class="modal-title">Vorschau</h4>
+	  </div>
+	  <div class="modal-body">
+		<embed id="pdfFilePathCollect" src="" width="550px" height="480px">
+	  </div>
+	  <div class="modal-footer">
+		<!-- <div class="alert alert-info col-md-7" style="font-size: 14px; padding:12px;">
+			 <p>Dieses Dokument sollte <div id="printAmountLabelCollect"></div> mal gedruckt werden.</p>
+		 </div>-->
+	 	<input type="checkbox"  id="printedCollect" > Schon gedruckt?<br>
+		<button id="deleteButtonCollect" type="button" class="btn btn-default" data-dismiss="modal">Abbrechen</button>
+		<a id="saveButtonCollect" type="submit" class="btn btn-primary">Speichern</a>
+		
+		<input id="counterTypeCollect" type=hidden />
+		<input id="collectiveId" type=hidden />
 	  </div>
 	</div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
@@ -229,7 +254,33 @@ var hot;
 			alert("Es ist ein Fehler beim Löschen aufgetreten");
 		}
 	});
-	
+		$(document).on("click", "#deleteButtonCollect", function() {
+		var filePath = $("#pdfFilePathCollect").attr('src');
+		var counterType = $("#counterTypeCollect").val();
+		var collId = $("#collectiveId").val();
+		console.log("filePath:" + filePath);
+		if(typeof(filePath) !== 'undefined' && typeof(counterType) !== 'undefined') {
+			$.ajax({
+				method: "POST",
+				type: "json",
+				url: "index.php?r=document/deleteThatPdf",
+				data: { 
+					filePath: filePath,
+					counterType: counterType,
+					docType: "Sammelrechnung",
+					collId: collId,
+				},
+				})
+			.done(function(data) {
+				setTimeout(function() {
+					$("#previewModalCollect").modal("hide");
+					showCancelMessage(data);
+				}, 500);
+			});
+		} else {
+			alert("Es ist ein Fehler beim Löschen aufgetreten");
+		}
+	});
 	$(document).on("click", "#saveButton", function() {
 		var filePath = $("#pdfFilePath").attr('src');
 		console.log("filePath:" + filePath);
@@ -254,6 +305,33 @@ var hot;
 			}, 500);
 		});
 	});
+	$(document).on("click", "#saveButtonCollect", function() {
+		var filePath = $("#pdfFilePathCollect").attr('src');
+		console.log("filePath:" + filePath);
+		$.ajax({
+			method: "POST",
+			type: "json",
+			url: "index.php?r=document/saveThatPdf",
+			data: { 
+				filePath: filePath,
+				docType:"Sammelrechnung",
+			},
+			})
+		.success(function(data) {
+			setTimeout(function() {
+				$("#previewModalCollect").modal("hide");
+				showSaveSuccessAlert(data);
+				readyWhenYouAre();
+				
+			}, 500);
+		})
+		.error(function(data) {
+			setTimeout(function() {
+				$("#previewModalCollect").modal("hide");
+				showSaveErrorAlert(data);
+			}, 500);
+		});
+	});
 	
 	function showCancelMessage (data) {
 		$("#successAlertContent").html("Entwurf wurde verworfen.");
@@ -270,11 +348,11 @@ var hot;
 		$("#errorAlert").slideDown('fast');
 	}
 	
-	$(document).ready(function ($) {
-		// jQuery.noConflict();
+	$(document).ready(function () {
 		$('#previewModal').modal({backdrop: 'static', keyboard: false});
 		$("#previewModal").modal("hide");
 		$(".panel-body-exclusive").hide();
+		$("#previewCancelGroup").hide('fast');
 		$("#docContentEmpty").show();
 	})
 
@@ -396,23 +474,32 @@ var hot;
 			})
 			.done(function(data) {
 				//alert(data);
+				
+				var dataArr;
 				switch(buttonPressed){
 					case "Rechnung":
-						loadInvoiceData(JSON.parse(data), buttonPressed);
+					dataArr = jQuery.parseJSON(data);
+					$('#printAmountLabel').text(dataArr.printAmount);
+						loadInvoiceData(dataArr.dataVal, buttonPressed);
 						// console.log("dataButton: "+data + " " + buttonPressed);
 						//alert("data Loaded");
 						break;
 					case "Sammelrechnung":
 						//loadInvoiceData(JSON.parse(data,buttonPressed));
+						//$('#printAmountLabel').text(trim(dataArr.printAmount));
 						loadCollectiveData(data);
 						// console.log("dataButton: "+data + " " + buttonPressed);
 						break;
 					case "Lieferschein":
-						loadInvoiceData(JSON.parse(data), buttonPressed);
+						dataArr = jQuery.parseJSON(data);
+						$('#printAmountLabel').text(dataArr.printAmount);
+						loadInvoiceData(dataArr.dataVal, buttonPressed);
 						// console.log("dataButton: "+data + " " + buttonPressed);
 						break;
 					case "Gutschrift":
-						loadInvoiceData(JSON.parse(data), buttonPressed);
+						dataArr = jQuery.parseJSON(data);
+						$('#printAmountLabel').text(dataArr.printAmount);
+						loadInvoiceData(dataArr.dataVal, buttonPressed);
 						// console.log("dataButton: "+data + " " + buttonPressed);
 						break;
 					default:
@@ -438,26 +525,32 @@ var hot;
 		// console.log(radio);
 		switch(radio){
 			case "empty":
+				$("#previewCancelGroup").hide('fast');
 				$("#docContentEmpty").siblings('.panel-body-exclusive').hide();
 				$("#docContentEmpty").show();
 				break;
 			case "#newInvoiceRadio":
+				$("#previewCancelGroup").show('fast');
 				$("#docContentInvoice").siblings('.panel-body-exclusive').hide();
 				$("#docContentInvoice").show();
 				break;
 			case "#newCollectiveInvoiceRadio":
+				$("#previewCancelGroup").hide('fast');
 				$("#docContentCollectiveInvoice").siblings('.panel-body-exclusive').hide();
 				$("#docContentCollectiveInvoice").show();
 				break;
 			case "#newDeliveryNoticeRadio":
+				$("#previewCancelGroup").show('fast');
 				$("#docContentDeliveryNotice").siblings('.panel-body-exclusive').hide();
 				$("#docContentDeliveryNotice").show();
 				break;
 			case "#newCreditNoteRadio":
+				$("#previewCancelGroup").show('fast');
 				$("#docContentCreditNote").siblings('.panel-body-exclusive').hide();
 				$("#docContentCreditNote").show();
 				break;
 			default:
+				$("#previewCancelGroup").hide('fast');
 				$("#docContentEmpty").siblings('.panel-body-exclusive').hide();
 				$("#docContentEmpty").show();
 				break;

@@ -178,11 +178,7 @@ require_once('../Rechnungstool/pdf/pdf_constants.php');
 									echo "<tr class='totalRow'>";
 									$i = 0;
 									foreach ($row as $data) {
-										if($i >= (sizeOf($row) - 3) && $data !== "") {
-											echo "<td style='text-align:right'><b>".$data."€</b></td>";
-										} else {
-											echo "<td><b>".$data."</b></td>";
-										}
+										echo "<td><b>".$data."</b></td>";
 										$i++;
 									}
 									echo "</tr>";
@@ -190,10 +186,17 @@ require_once('../Rechnungstool/pdf/pdf_constants.php');
 									echo "<tr>";
 									$i = 0;
 									foreach ($row as $data) {
-										if($i >= (sizeOf($row) - 3) && $data !== "") {
-											echo "<td style='text-align:right'>".$data."€</td>";
-										} else {
-											echo "<td>".$data." </td>";
+										if($i == (sizeOf($row)-3) && $data !== "") {
+											echo "<td style='text-align:center'>".$data."</td>";
+										}
+										if($i == (sizeOf($row)-1) && $data !== "") {
+											echo "<td style='text-align:right'>".$data." €</td>";											
+										} 
+										if ($i == (sizeOf($row)-2) && $data !== "") {
+											// $date = new DateTime($data);
+											// $date->format('d.m.Y');
+											$newDate = preg_replace("/(\d+)\D+(\d+)\D+(\d+)/","$3.$2.$1",$data);
+											echo "<td style='text-align:center'>". $newDate ." </td>";
 										}
 										$i++;
 									}
@@ -209,15 +212,26 @@ require_once('../Rechnungstool/pdf/pdf_constants.php');
 		</div>
 		<br/>
 		<!-- FIX FOR PRINTING PDF -->
+		<?php
+		// var_dump($invoiceExtra);
+		?>
 		<div class="row">
 			<div class="col-xs-11 col-xs-offset-1 invoiceExtraContainer">
 				<?php //echo str_replace('-md-', '-xs-', $invoiceExtra); ?>
 				<div class="row">
 						<div class="col-xs-2 invoiceExtra col-xs-offset-6">
-							<p class="smallExtra">Warenwert netto</p>
+							<p class="smallExtra">Gesamtbetrag:</p>
 						</div>
 						<div class="col-xs-2 invoiceExtra">
 							<p class="smallExtra"><?php if(!empty($invoiceExtra[0])) echo number_format(floatval($invoiceExtra[0]), 2,","," ")." €"; ?></p>
+						</div>
+				</div>
+				<!--div class="row">
+						<div class="col-xs-2 invoiceExtra col-xs-offset-6">
+							<p class="smallExtra">Warenwert netto</p>
+						</div>
+						<div class="col-xs-2 invoiceExtra">
+							<p class="smallExtra"><?php //if(!empty($invoiceExtra[0])) echo number_format(floatval($invoiceExtra[0]), 2,","," ")." €"; ?></p>
 						</div>
 					</div>
 					<div class="row">
@@ -225,7 +239,7 @@ require_once('../Rechnungstool/pdf/pdf_constants.php');
 							<p class="smallExtra">MwSt 0%</p>
 						</div>
 						<div class="col-xs-2 invoiceExtra ">
-							<p class="smallExtra"><?php if(!empty($invoiceExtra[1])) echo number_format(floatval($invoiceExtra[1]), 2,","," ")." €"; ?></p>
+							<p class="smallExtra"><?php //if(!empty($invoiceExtra[1])) echo number_format(floatval($invoiceExtra[1]), 2,","," ")." €"; ?></p>
 						</div>
 					</div>
 					<div class="row">
@@ -233,7 +247,7 @@ require_once('../Rechnungstool/pdf/pdf_constants.php');
 							<p class="smallExtra">MwSt 7%</p>
 						</div>
 						<div class="col-xs-2 invoiceExtra ">
-							<p class="smallExtra"><?php if(!empty($invoiceExtra[2])) echo number_format(floatval($invoiceExtra[2]), 2,","," ")." €"; ?></p>
+							<p class="smallExtra"><?php //if(!empty($invoiceExtra[2])) echo number_format(floatval($invoiceExtra[2]), 2,","," ")." €"; ?></p>
 						</div>
 					</div>
 					<div class="row">
@@ -241,7 +255,7 @@ require_once('../Rechnungstool/pdf/pdf_constants.php');
 						<p class="smallExtra">MwSt 19%</p>
 						</div>
 						<div class="col-xs-2 invoiceExtra ">
-							<p class="smallExtra"><?php if(!empty($invoiceExtra[3])) echo number_format(floatval($invoiceExtra[3]), 2,","," ")." €"; ?></p>
+							<p class="smallExtra"><?php //if(!empty($invoiceExtra[3])) echo number_format(floatval($invoiceExtra[3]), 2,","," ")." €"; ?></p>
 						</div>
 					</div>
 					<div class="row">
@@ -249,7 +263,7 @@ require_once('../Rechnungstool/pdf/pdf_constants.php');
 							<p class="smallExtra">Warenwert brutto</p>
 						</div>
 						<div class="col-xs-2 invoiceExtra ">
-							<p class="smallExtra"><?php if(!empty($invoiceExtra[4])) echo number_format(floatval($invoiceExtra[4]), 2,","," ")." €"; ?></p>
+							<p class="smallExtra"><?php //if(!empty($invoiceExtra[4])) echo number_format(floatval($invoiceExtra[4]), 2,","," ")." €"; ?></p>
 						</div>
 					</div>
 					<div class="row">
@@ -258,10 +272,10 @@ require_once('../Rechnungstool/pdf/pdf_constants.php');
 						</div>
 						<br/>
 						<div class="col-xs-2 col-xs-offset-7 invoiceExtra ">
-							<p class="smallExtra"><?php if(!empty($invoiceExtra[5])) echo $invoiceExtra[5]; ?></p>
+							<p class="smallExtra"><?php //if(!empty($invoiceExtra[5])) echo $invoiceExtra[5]; ?></p>
 						</div>
 						<div class="col-xs-1 invoiceExtra ">
-							<p class="smallExtra"><?php if(!empty($invoiceExtra[6])) echo number_format(floatval($invoiceExtra[6]), 2,","," ")." €"; ?></p>
+							<p class="smallExtra"><?php //if(!empty($invoiceExtra[6])) echo number_format(floatval($invoiceExtra[6]), 2,","," ")." €"; ?></p>
 						</div>
 						<br/>
 					</div>
@@ -270,7 +284,7 @@ require_once('../Rechnungstool/pdf/pdf_constants.php');
 							<p class="smallExtra">Bereits berechnet</p>
 						</div>
 						<div class="col-xs-2 invoiceExtra ">
-							<p class="smallExtra"><?php if(!empty($invoiceExtra[7])) echo number_format(floatval($invoiceExtra[7]), 2,","," ")." €"; ?></p>
+							<p class="smallExtra"><?php //if(!empty($invoiceExtra[7])) echo number_format(floatval($invoiceExtra[7]), 2,","," ")." €"; ?></p>
 						</div>
 					</div>
 					<div class="row">
@@ -278,10 +292,10 @@ require_once('../Rechnungstool/pdf/pdf_constants.php');
 							<p class="smallExtra">Restbetrag</p>
 						</div>
 						<div class="col-xs-2 invoiceExtra ">
-							<p class="smallExtra"><?php if(!empty($invoiceExtra[8])) echo number_format(floatval($invoiceExtra[8]), 2,","," ")." €"; ?></p>
+							<p class="smallExtra"><?php //if(!empty($invoiceExtra[8])) echo number_format(floatval($invoiceExtra[8]), 2,","," ")." €"; ?></p>
 						</div>
 					</div>
-			</div>
+			</div-->
 		</div>
 	</div>
 	<br/>

@@ -21,6 +21,7 @@ Class jvaEditFormModel extends CFormModel () {
 	public $colName10;
 	public $colName11;
 	public $colName12;
+	public $printAmount;
 
 	//TODO: create form to update JVA
 	
